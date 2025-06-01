@@ -1,0 +1,192 @@
+[{
+  "_id": {
+    "$oid": "6836ff70ce6e4585e32322e8"
+  },
+  "user": {
+    "$oid": "6836090a61d3d20672813b81"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "68343249329b002b89311281"
+      },
+      "name": "Firming Eye Serum",
+      "price": 27.88,
+      "quantity": 2,
+      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+      "_id": {
+        "$oid": "6836ff70ce6e4585e32322e9"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68343249329b002b89311275"
+      },
+      "name": "Hydrating Face Cream",
+      "price": 52.53,
+      "quantity": 3,
+      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+      "_id": {
+        "$oid": "6836ff70ce6e4585e32322ea"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "fullName": "deada nushi",
+    "address": "Tirana",
+    "city": "Tirana",
+    "zipCode": "1001",
+    "phone": "0684242727"
+  },
+  "paymentMethod": "cashOnDelivery",
+  "totalAmount": 213.35,
+  "status": "delivered",
+  "createdAt": {
+    "$date": "2025-05-28T12:20:00.420Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T16:41:51.272Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68373c142e5fddbd1cfe3298"
+  },
+  "user": {
+    "$oid": "6836090a61d3d20672813b81"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "68343249329b002b89311281"
+      },
+      "name": "Firming Eye Serum",
+      "price": 27.88,
+      "quantity": 2,
+      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+      "_id": {
+        "$oid": "68373c142e5fddbd1cfe3299"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68343249329b002b89311275"
+      },
+      "name": "Hydrating Face Cream",
+      "price": 52.53,
+      "quantity": 1,
+      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+      "_id": {
+        "$oid": "68373c142e5fddbd1cfe329a"
+      }
+    },
+    {
+      "productId": {
+        "$oid": "68343249329b002b89311280"
+      },
+      "name": "Detoxifying Charcoal Cleanser",
+      "price": 17.66,
+      "quantity": 1,
+      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+      "_id": {
+        "$oid": "68373c142e5fddbd1cfe329b"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "fullName": "deada ijlnm",
+    "address": "hbjn,gvh",
+    "city": "hjjn",
+    "zipCode": "55555",
+    "phone": "98562497"
+  },
+  "paymentMethod": "cashOnDelivery",
+  "totalAmount": 125.94999999999999,
+  "status": "shipped",
+  "createdAt": {
+    "$date": "2025-05-28T16:38:44.523Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-29T14:56:41.823Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68373c442e5fddbd1cfe32a9"
+  },
+  "user": {
+    "$oid": "6836090a61d3d20672813b81"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "68343249329b002b89311280"
+      },
+      "name": "Detoxifying Charcoal Cleanser",
+      "price": 17.66,
+      "quantity": 2,
+      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+      "_id": {
+        "$oid": "68373c442e5fddbd1cfe32aa"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "fullName": "deada ijl",
+    "address": "hbjn,gvh",
+    "city": "hjjn",
+    "zipCode": "55555",
+    "phone": "98562497"
+  },
+  "paymentMethod": "creditCard",
+  "totalAmount": 35.32,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-05-28T16:39:32.881Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-28T16:39:32.881Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "683874992359953164a463d4"
+  },
+  "user": {
+    "$oid": "6836090a61d3d20672813b81"
+  },
+  "items": [
+    {
+      "productId": {
+        "$oid": "68343249329b002b89311280"
+      },
+      "name": "Detoxifying Charcoal Cleanser",
+      "price": 17.66,
+      "quantity": 1,
+      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+      "_id": {
+        "$oid": "683874992359953164a463d5"
+      }
+    }
+  ],
+  "shippingAddress": {
+    "fullName": "deada n",
+    "address": "hbjn,gvh",
+    "city": "hjjn",
+    "zipCode": "55555",
+    "phone": "98562497"
+  },
+  "paymentMethod": "paypal",
+  "totalAmount": 17.66,
+  "status": "pending",
+  "createdAt": {
+    "$date": "2025-05-29T14:52:09.384Z"
+  },
+  "updatedAt": {
+    "$date": "2025-05-29T14:52:09.384Z"
+  },
+  "__v": 0
+}]

@@ -1,0 +1,2394 @@
+[{
+  "_id": {
+    "$oid": "68343203329b002b8931126b"
+  },
+  "name": "Hydrating Face Cream",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 25.99,
+  "stock": 45,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b8931126c"
+  },
+  "name": "Vitamin C Serum",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 35.5,
+  "stock": 30,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b8931126d"
+  },
+  "name": "Gentle Foaming Cleanser",
+  "description": "Removes impurities and leaves skin feeling fresh and clean.",
+  "price": 19.99,
+  "stock": 50,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b8931126e"
+  },
+  "name": "SPF 50 Sunscreen Lotion",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 29.99,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b8931126f"
+  },
+  "name": "Anti-Aging Night Cream",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 42,
+  "stock": 40,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b89311270"
+  },
+  "name": "Refreshing Toner",
+  "description": "Balances skin pH and tightens pores for a refreshed look.",
+  "price": 18.5,
+  "stock": 55,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b89311271"
+  },
+  "name": "Acne Treatment Gel",
+  "description": "Targets breakouts and reduces redness with fast-acting formula.",
+  "price": 22,
+  "stock": 25,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b89311272"
+  },
+  "name": "Nourishing Eye Cream",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 28.75,
+  "stock": 35,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b89311273"
+  },
+  "name": "Gentle Exfoliating Scrub",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 21.99,
+  "stock": 45,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343203329b002b89311274"
+  },
+  "name": "Calming Aloe Vera Gel",
+  "description": "Soothes irritated skin and provides instant hydration.",
+  "price": 15.99,
+  "stock": 70,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311275"
+  },
+  "name": "Hydrating Face Cream",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 52.53,
+  "stock": 18,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+  "createdAt": {
+    "$date": "2025-05-27T17:27:41.699Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311276"
+  },
+  "name": "Gentle Exfoliating Scrub",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 41.86,
+  "stock": 58,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311277"
+  },
+  "name": "Nourishing Eye Cream",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 50.52,
+  "stock": 56,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311278"
+  },
+  "name": "Deep Cleanse Mask",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 40.38,
+  "stock": 16,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311279"
+  },
+  "name": "SPF 50 Sunscreen Lotion",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 14.95,
+  "stock": 87,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931127a"
+  },
+  "name": "Moisture Lock Lotion",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 49.14,
+  "stock": 17,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931127b"
+  },
+  "name": "Hydrating Face Cream",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 13.42,
+  "stock": 30,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931127c"
+  },
+  "name": "Repairing Lip Balm",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 16.36,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931127d"
+  },
+  "name": "Repairing Lip Balm",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 45.85,
+  "stock": 0,
+  "category": "Skincare",
+  "image": "https://my-kare.com/cdn/shop/files/SKIN1004-Madagascar-Centella-Ampoule-art_1200x.jpg?v=1714861568",
+  "createdAt": {
+    "$date": "2025-05-26T16:02:17.358Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931127e"
+  },
+  "name": "Vitamin C Serum",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 17.56,
+  "stock": 46,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931127f"
+  },
+  "name": "Collagen Boost Serum",
+  "description": "Boosts collagen production to improve skin elasticity.",
+  "price": 34.53,
+  "stock": 40,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311280"
+  },
+  "name": "Detoxifying Charcoal Cleanser",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 17.66,
+  "stock": 71,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+  "createdAt": {
+    "$date": "2025-05-28T16:38:44.500Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311281"
+  },
+  "name": "Firming Eye Serum",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 27.88,
+  "stock": 19,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
+  "createdAt": {
+    "$date": "2025-05-28T12:02:58.320Z"
+  }
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311282"
+  },
+  "name": "Detoxifying Charcoal Cleanser",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 54.62,
+  "stock": 33,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311283"
+  },
+  "name": "Nourishing Eye Cream",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 14.75,
+  "stock": 15,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311284"
+  },
+  "name": "Anti-Aging Night Cream",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 47.8,
+  "stock": 93,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311285"
+  },
+  "name": "Gentle Exfoliating Scrub",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 30.97,
+  "stock": 74,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311286"
+  },
+  "name": "Revitalizing Night Serum",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 17.57,
+  "stock": 36,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311287"
+  },
+  "name": "Detoxifying Charcoal Cleanser",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 13.88,
+  "stock": 81,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311288"
+  },
+  "name": "Soothing Face Mist",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 38.56,
+  "stock": 23,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311289"
+  },
+  "name": "Soothing Face Mist #21",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 46.79,
+  "stock": 94,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931128a"
+  },
+  "name": "Vitamin C Serum #22",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 31.5,
+  "stock": 12,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931128b"
+  },
+  "name": "Firming Eye Serum #23",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 13.01,
+  "stock": 70,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931128c"
+  },
+  "name": "Repairing Lip Balm #24",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 45.05,
+  "stock": 89,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931128d"
+  },
+  "name": "Brightening Day Cream #25",
+  "description": "Illuminates skin and evens out skin tone.",
+  "price": 34.08,
+  "stock": 29,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931128e"
+  },
+  "name": "Anti-Aging Night Cream #26",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 54.59,
+  "stock": 88,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931128f"
+  },
+  "name": "Nourishing Eye Cream #27",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 53.84,
+  "stock": 49,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311290"
+  },
+  "name": "Firming Eye Serum #28",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 20.6,
+  "stock": 81,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311291"
+  },
+  "name": "Deep Cleanse Mask #29",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 38.3,
+  "stock": 48,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311292"
+  },
+  "name": "Revitalizing Night Serum #30",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 48.71,
+  "stock": 81,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311293"
+  },
+  "name": "SPF 50 Sunscreen Lotion #31",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 26.17,
+  "stock": 92,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311294"
+  },
+  "name": "Brightening Day Cream #32",
+  "description": "Illuminates skin and evens out skin tone.",
+  "price": 35.95,
+  "stock": 67,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311295"
+  },
+  "name": "Anti-Aging Night Cream #33",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 33.82,
+  "stock": 71,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311296"
+  },
+  "name": "Anti-Aging Night Cream #34",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 40.37,
+  "stock": 48,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311297"
+  },
+  "name": "Firming Eye Serum #35",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 51.85,
+  "stock": 36,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311298"
+  },
+  "name": "Acne Treatment Gel #36",
+  "description": "Targets breakouts and reduces redness with fast-acting formula.",
+  "price": 11.79,
+  "stock": 19,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b89311299"
+  },
+  "name": "Moisture Lock Lotion #37",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 15,
+  "stock": 82,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931129a"
+  },
+  "name": "Hydrating Face Cream #38",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 12.33,
+  "stock": 22,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931129b"
+  },
+  "name": "Vitamin C Serum #39",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 38.28,
+  "stock": 13,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931129c"
+  },
+  "name": "Moisture Lock Lotion #40",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 54.63,
+  "stock": 89,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931129d"
+  },
+  "name": "Repairing Lip Balm #41",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 26.13,
+  "stock": 51,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931129e"
+  },
+  "name": "Nourishing Eye Cream #42",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 31.79,
+  "stock": 46,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b8931129f"
+  },
+  "name": "Acne Treatment Gel #43",
+  "description": "Targets breakouts and reduces redness with fast-acting formula.",
+  "price": 51.7,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a0"
+  },
+  "name": "Revitalizing Night Serum #44",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 13.72,
+  "stock": 87,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a1"
+  },
+  "name": "SPF 50 Sunscreen Lotion #45",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 52,
+  "stock": 98,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a2"
+  },
+  "name": "Purifying Clay Mask #46",
+  "description": "Purifies pores and reduces excess oil.",
+  "price": 52.74,
+  "stock": 82,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a3"
+  },
+  "name": "Purifying Clay Mask #47",
+  "description": "Purifies pores and reduces excess oil.",
+  "price": 40.44,
+  "stock": 40,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a4"
+  },
+  "name": "Refreshing Toner #48",
+  "description": "Balances skin pH and tightens pores for a refreshed look.",
+  "price": 22.27,
+  "stock": 69,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a5"
+  },
+  "name": "Revitalizing Night Serum #49",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 58.06,
+  "stock": 67,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a6"
+  },
+  "name": "Purifying Clay Mask #50",
+  "description": "Purifies pores and reduces excess oil.",
+  "price": 54.13,
+  "stock": 98,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a7"
+  },
+  "name": "Repairing Lip Balm #51",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 47.52,
+  "stock": 33,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a8"
+  },
+  "name": "Gentle Exfoliating Scrub #52",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 22.56,
+  "stock": 14,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112a9"
+  },
+  "name": "Firming Eye Serum #53",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 56.6,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112aa"
+  },
+  "name": "Moisture Lock Lotion #54",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 26.62,
+  "stock": 88,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112ab"
+  },
+  "name": "Anti-Aging Night Cream #55",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 42.05,
+  "stock": 49,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112ac"
+  },
+  "name": "Soothing Face Mist #56",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 53.49,
+  "stock": 44,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112ad"
+  },
+  "name": "Soothing Face Mist #57",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 27.57,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112ae"
+  },
+  "name": "Moisture Lock Lotion #58",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 33.63,
+  "stock": 72,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112af"
+  },
+  "name": "Moisture Lock Lotion #59",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 40.54,
+  "stock": 16,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b0"
+  },
+  "name": "Acne Treatment Gel #60",
+  "description": "Targets breakouts and reduces redness with fast-acting formula.",
+  "price": 19.75,
+  "stock": 99,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b1"
+  },
+  "name": "Moisture Lock Lotion #61",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 44.28,
+  "stock": 19,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b2"
+  },
+  "name": "Firming Eye Serum #62",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 38.42,
+  "stock": 43,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b3"
+  },
+  "name": "Firming Eye Serum #63",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 26.78,
+  "stock": 89,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b4"
+  },
+  "name": "Gentle Exfoliating Scrub #64",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 18.28,
+  "stock": 71,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b5"
+  },
+  "name": "Gentle Exfoliating Scrub #65",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 29.11,
+  "stock": 85,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b6"
+  },
+  "name": "Firming Eye Serum #66",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 14.52,
+  "stock": 47,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b7"
+  },
+  "name": "Moisture Lock Lotion #67",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 55.79,
+  "stock": 56,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b8"
+  },
+  "name": "Vitamin C Serum #68",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 26.67,
+  "stock": 54,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112b9"
+  },
+  "name": "Revitalizing Night Serum #69",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 23.4,
+  "stock": 42,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112ba"
+  },
+  "name": "Repairing Lip Balm #70",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 59.24,
+  "stock": 61,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112bb"
+  },
+  "name": "Deep Cleanse Mask #71",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 38.45,
+  "stock": 25,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112bc"
+  },
+  "name": "Refreshing Toner #72",
+  "description": "Balances skin pH and tightens pores for a refreshed look.",
+  "price": 21.4,
+  "stock": 51,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112bd"
+  },
+  "name": "Calming Aloe Vera Gel #73",
+  "description": "Soothes irritated skin and provides instant hydration.",
+  "price": 20.12,
+  "stock": 96,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112be"
+  },
+  "name": "Brightening Day Cream #74",
+  "description": "Illuminates skin and evens out skin tone.",
+  "price": 49.9,
+  "stock": 63,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112bf"
+  },
+  "name": "Gentle Exfoliating Scrub #75",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 57.89,
+  "stock": 31,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c0"
+  },
+  "name": "Deep Cleanse Mask #76",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 31.77,
+  "stock": 35,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c1"
+  },
+  "name": "Nourishing Eye Cream #77",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 56.56,
+  "stock": 82,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c2"
+  },
+  "name": "Gentle Exfoliating Scrub #78",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 25.15,
+  "stock": 92,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c3"
+  },
+  "name": "Vitamin C Serum #79",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 50.05,
+  "stock": 97,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c4"
+  },
+  "name": "Moisture Lock Lotion #80",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 20.62,
+  "stock": 75,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c5"
+  },
+  "name": "Moisture Lock Lotion #81",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 58.89,
+  "stock": 58,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c6"
+  },
+  "name": "Repairing Lip Balm #82",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 57.94,
+  "stock": 31,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c7"
+  },
+  "name": "Gentle Exfoliating Scrub #83",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 23.19,
+  "stock": 84,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c8"
+  },
+  "name": "Soothing Face Mist #84",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 24.56,
+  "stock": 47,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112c9"
+  },
+  "name": "Brightening Day Cream #85",
+  "description": "Illuminates skin and evens out skin tone.",
+  "price": 46.99,
+  "stock": 47,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112ca"
+  },
+  "name": "Soothing Face Mist #86",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 11.79,
+  "stock": 93,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112cb"
+  },
+  "name": "Vitamin C Serum #87",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 55.85,
+  "stock": 90,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112cc"
+  },
+  "name": "Anti-Aging Night Cream #88",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 22.63,
+  "stock": 91,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112cd"
+  },
+  "name": "Deep Cleanse Mask #89",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 22.18,
+  "stock": 35,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112ce"
+  },
+  "name": "Vitamin C Serum #90",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 53,
+  "stock": 61,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112cf"
+  },
+  "name": "Repairing Lip Balm #91",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 48.02,
+  "stock": 83,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d0"
+  },
+  "name": "Detoxifying Charcoal Cleanser #92",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 28.63,
+  "stock": 49,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d1"
+  },
+  "name": "Detoxifying Charcoal Cleanser #93",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 12.24,
+  "stock": 67,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d2"
+  },
+  "name": "SPF 50 Sunscreen Lotion #94",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 21.27,
+  "stock": 45,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d3"
+  },
+  "name": "Hydrating Face Cream #95",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 18.74,
+  "stock": 55,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d4"
+  },
+  "name": "Anti-Aging Night Cream #96",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 33.31,
+  "stock": 48,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d5"
+  },
+  "name": "Moisture Lock Lotion #97",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 58.65,
+  "stock": 78,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d6"
+  },
+  "name": "Anti-Aging Night Cream #98",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 56.13,
+  "stock": 19,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d7"
+  },
+  "name": "Collagen Boost Serum #99",
+  "description": "Boosts collagen production to improve skin elasticity.",
+  "price": 18.23,
+  "stock": 38,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "68343249329b002b893112d8"
+  },
+  "name": "SPF 50 Sunscreen Lotion #100",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 45.69,
+  "stock": 30,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112da"
+  },
+  "name": "Hydrating Face Cream",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 52.53,
+  "stock": 49,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112db"
+  },
+  "name": "Gentle Exfoliating Scrub",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 41.86,
+  "stock": 58,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112dc"
+  },
+  "name": "Nourishing Eye Cream",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 50.52,
+  "stock": 56,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112dd"
+  },
+  "name": "Deep Cleanse Mask",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 40.38,
+  "stock": 16,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112de"
+  },
+  "name": "SPF 50 Sunscreen Lotion",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 14.95,
+  "stock": 87,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112df"
+  },
+  "name": "Moisture Lock Lotion",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 49.14,
+  "stock": 17,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e0"
+  },
+  "name": "Hydrating Face Cream",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 13.42,
+  "stock": 30,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e1"
+  },
+  "name": "Repairing Lip Balm",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 16.36,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e2"
+  },
+  "name": "Repairing Lip Balm",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 45.85,
+  "stock": 93,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e3"
+  },
+  "name": "Vitamin C Serum",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 17.56,
+  "stock": 46,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e4"
+  },
+  "name": "Collagen Boost Serum",
+  "description": "Boosts collagen production to improve skin elasticity.",
+  "price": 34.53,
+  "stock": 40,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e5"
+  },
+  "name": "Detoxifying Charcoal Cleanser",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 17.66,
+  "stock": 75,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e6"
+  },
+  "name": "Firming Eye Serum",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 27.88,
+  "stock": 33,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e7"
+  },
+  "name": "Detoxifying Charcoal Cleanser",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 54.62,
+  "stock": 33,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e8"
+  },
+  "name": "Nourishing Eye Cream",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 14.75,
+  "stock": 15,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112e9"
+  },
+  "name": "Anti-Aging Night Cream",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 47.8,
+  "stock": 93,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112ea"
+  },
+  "name": "Gentle Exfoliating Scrub",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 30.97,
+  "stock": 74,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112eb"
+  },
+  "name": "Revitalizing Night Serum",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 17.57,
+  "stock": 36,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112ec"
+  },
+  "name": "Detoxifying Charcoal Cleanser",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 13.88,
+  "stock": 81,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112ed"
+  },
+  "name": "Soothing Face Mist",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 38.56,
+  "stock": 23,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112ee"
+  },
+  "name": "Soothing Face Mist #21",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 46.79,
+  "stock": 94,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112ef"
+  },
+  "name": "Vitamin C Serum #22",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 31.5,
+  "stock": 12,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f0"
+  },
+  "name": "Firming Eye Serum #23",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 13.01,
+  "stock": 70,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f1"
+  },
+  "name": "Repairing Lip Balm #24",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 45.05,
+  "stock": 89,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f2"
+  },
+  "name": "Brightening Day Cream #25",
+  "description": "Illuminates skin and evens out skin tone.",
+  "price": 34.08,
+  "stock": 29,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f3"
+  },
+  "name": "Anti-Aging Night Cream #26",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 54.59,
+  "stock": 88,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f4"
+  },
+  "name": "Nourishing Eye Cream #27",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 53.84,
+  "stock": 49,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f5"
+  },
+  "name": "Firming Eye Serum #28",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 20.6,
+  "stock": 81,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f6"
+  },
+  "name": "Deep Cleanse Mask #29",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 38.3,
+  "stock": 48,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f7"
+  },
+  "name": "Revitalizing Night Serum #30",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 48.71,
+  "stock": 81,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f8"
+  },
+  "name": "SPF 50 Sunscreen Lotion #31",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 26.17,
+  "stock": 92,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112f9"
+  },
+  "name": "Brightening Day Cream #32",
+  "description": "Illuminates skin and evens out skin tone.",
+  "price": 35.95,
+  "stock": 67,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112fa"
+  },
+  "name": "Anti-Aging Night Cream #33",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 33.82,
+  "stock": 71,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112fb"
+  },
+  "name": "Anti-Aging Night Cream #34",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 40.37,
+  "stock": 48,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112fc"
+  },
+  "name": "Firming Eye Serum #35",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 51.85,
+  "stock": 36,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112fd"
+  },
+  "name": "Acne Treatment Gel #36",
+  "description": "Targets breakouts and reduces redness with fast-acting formula.",
+  "price": 11.79,
+  "stock": 19,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112fe"
+  },
+  "name": "Moisture Lock Lotion #37",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 15,
+  "stock": 82,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b893112ff"
+  },
+  "name": "Hydrating Face Cream #38",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 12.33,
+  "stock": 22,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311300"
+  },
+  "name": "Vitamin C Serum #39",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 38.28,
+  "stock": 13,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311301"
+  },
+  "name": "Moisture Lock Lotion #40",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 54.63,
+  "stock": 89,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311302"
+  },
+  "name": "Repairing Lip Balm #41",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 26.13,
+  "stock": 51,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311303"
+  },
+  "name": "Nourishing Eye Cream #42",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 31.79,
+  "stock": 46,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311304"
+  },
+  "name": "Acne Treatment Gel #43",
+  "description": "Targets breakouts and reduces redness with fast-acting formula.",
+  "price": 51.7,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311305"
+  },
+  "name": "Revitalizing Night Serum #44",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 13.72,
+  "stock": 87,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311306"
+  },
+  "name": "SPF 50 Sunscreen Lotion #45",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 52,
+  "stock": 98,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311307"
+  },
+  "name": "Purifying Clay Mask #46",
+  "description": "Purifies pores and reduces excess oil.",
+  "price": 52.74,
+  "stock": 82,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311308"
+  },
+  "name": "Purifying Clay Mask #47",
+  "description": "Purifies pores and reduces excess oil.",
+  "price": 40.44,
+  "stock": 40,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311309"
+  },
+  "name": "Refreshing Toner #48",
+  "description": "Balances skin pH and tightens pores for a refreshed look.",
+  "price": 22.27,
+  "stock": 69,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931130a"
+  },
+  "name": "Revitalizing Night Serum #49",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 58.06,
+  "stock": 67,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931130b"
+  },
+  "name": "Purifying Clay Mask #50",
+  "description": "Purifies pores and reduces excess oil.",
+  "price": 54.13,
+  "stock": 98,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931130c"
+  },
+  "name": "Repairing Lip Balm #51",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 47.52,
+  "stock": 33,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931130d"
+  },
+  "name": "Gentle Exfoliating Scrub #52",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 22.56,
+  "stock": 14,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931130e"
+  },
+  "name": "Firming Eye Serum #53",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 56.6,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931130f"
+  },
+  "name": "Moisture Lock Lotion #54",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 26.62,
+  "stock": 88,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311310"
+  },
+  "name": "Anti-Aging Night Cream #55",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 42.05,
+  "stock": 49,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311311"
+  },
+  "name": "Soothing Face Mist #56",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 53.49,
+  "stock": 44,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311312"
+  },
+  "name": "Soothing Face Mist #57",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 27.57,
+  "stock": 60,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311313"
+  },
+  "name": "Moisture Lock Lotion #58",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 33.63,
+  "stock": 72,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311314"
+  },
+  "name": "Moisture Lock Lotion #59",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 40.54,
+  "stock": 16,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311315"
+  },
+  "name": "Acne Treatment Gel #60",
+  "description": "Targets breakouts and reduces redness with fast-acting formula.",
+  "price": 19.75,
+  "stock": 99,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311316"
+  },
+  "name": "Moisture Lock Lotion #61",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 44.28,
+  "stock": 19,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311317"
+  },
+  "name": "Firming Eye Serum #62",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 38.42,
+  "stock": 43,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311318"
+  },
+  "name": "Firming Eye Serum #63",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 26.78,
+  "stock": 89,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311319"
+  },
+  "name": "Gentle Exfoliating Scrub #64",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 18.28,
+  "stock": 71,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931131a"
+  },
+  "name": "Gentle Exfoliating Scrub #65",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 29.11,
+  "stock": 85,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931131b"
+  },
+  "name": "Firming Eye Serum #66",
+  "description": "Firms delicate skin around the eyes.",
+  "price": 14.52,
+  "stock": 47,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931131c"
+  },
+  "name": "Moisture Lock Lotion #67",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 55.79,
+  "stock": 56,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931131d"
+  },
+  "name": "Vitamin C Serum #68",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 26.67,
+  "stock": 54,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931131e"
+  },
+  "name": "Revitalizing Night Serum #69",
+  "description": "Revitalizes tired skin with intense nutrients.",
+  "price": 23.4,
+  "stock": 42,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931131f"
+  },
+  "name": "Repairing Lip Balm #70",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 59.24,
+  "stock": 61,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311320"
+  },
+  "name": "Deep Cleanse Mask #71",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 38.45,
+  "stock": 25,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311321"
+  },
+  "name": "Refreshing Toner #72",
+  "description": "Balances skin pH and tightens pores for a refreshed look.",
+  "price": 21.4,
+  "stock": 51,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311322"
+  },
+  "name": "Calming Aloe Vera Gel #73",
+  "description": "Soothes irritated skin and provides instant hydration.",
+  "price": 20.12,
+  "stock": 96,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311323"
+  },
+  "name": "Brightening Day Cream #74",
+  "description": "Illuminates skin and evens out skin tone.",
+  "price": 49.9,
+  "stock": 63,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311324"
+  },
+  "name": "Gentle Exfoliating Scrub #75",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 57.89,
+  "stock": 31,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311325"
+  },
+  "name": "Deep Cleanse Mask #76",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 31.77,
+  "stock": 35,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311326"
+  },
+  "name": "Nourishing Eye Cream #77",
+  "description": "Reduces puffiness and dark circles around the eyes.",
+  "price": 56.56,
+  "stock": 82,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311327"
+  },
+  "name": "Gentle Exfoliating Scrub #78",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 25.15,
+  "stock": 92,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311328"
+  },
+  "name": "Vitamin C Serum #79",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 50.05,
+  "stock": 97,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311329"
+  },
+  "name": "Moisture Lock Lotion #80",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 20.62,
+  "stock": 75,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931132a"
+  },
+  "name": "Moisture Lock Lotion #81",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 58.89,
+  "stock": 58,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931132b"
+  },
+  "name": "Repairing Lip Balm #82",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 57.94,
+  "stock": 31,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931132c"
+  },
+  "name": "Gentle Exfoliating Scrub #83",
+  "description": "Removes dead skin cells and smooths skin texture.",
+  "price": 23.19,
+  "stock": 84,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931132d"
+  },
+  "name": "Soothing Face Mist #84",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 24.56,
+  "stock": 47,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931132e"
+  },
+  "name": "Brightening Day Cream #85",
+  "description": "Illuminates skin and evens out skin tone.",
+  "price": 46.99,
+  "stock": 47,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931132f"
+  },
+  "name": "Soothing Face Mist #86",
+  "description": "Calms sensitive skin and restores hydration.",
+  "price": 11.79,
+  "stock": 93,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311330"
+  },
+  "name": "Vitamin C Serum #87",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 55.85,
+  "stock": 90,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311331"
+  },
+  "name": "Anti-Aging Night Cream #88",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 22.63,
+  "stock": 91,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311332"
+  },
+  "name": "Deep Cleanse Mask #89",
+  "description": "Detoxifies skin and unclogs pores for a fresh feeling.",
+  "price": 22.18,
+  "stock": 35,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311333"
+  },
+  "name": "Vitamin C Serum #90",
+  "description": "Brightens skin tone and reduces dark spots with potent vitamin C.",
+  "price": 53,
+  "stock": 61,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311334"
+  },
+  "name": "Repairing Lip Balm #91",
+  "description": "Repairs and moisturizes dry, chapped lips.",
+  "price": 48.02,
+  "stock": 83,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311335"
+  },
+  "name": "Detoxifying Charcoal Cleanser #92",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 28.63,
+  "stock": 49,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311336"
+  },
+  "name": "Detoxifying Charcoal Cleanser #93",
+  "description": "Cleanses deeply and removes toxins from skin.",
+  "price": 12.24,
+  "stock": 67,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311337"
+  },
+  "name": "SPF 50 Sunscreen Lotion #94",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 21.27,
+  "stock": 45,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311338"
+  },
+  "name": "Hydrating Face Cream #95",
+  "description": "Deeply moisturizes and nourishes skin for a radiant glow.",
+  "price": 18.74,
+  "stock": 55,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b89311339"
+  },
+  "name": "Anti-Aging Night Cream #96",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 33.31,
+  "stock": 48,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931133a"
+  },
+  "name": "Moisture Lock Lotion #97",
+  "description": "Locks in moisture for all-day hydration.",
+  "price": 58.65,
+  "stock": 78,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931133b"
+  },
+  "name": "Anti-Aging Night Cream #98",
+  "description": "Reduces wrinkles and firms skin while you sleep.",
+  "price": 56.13,
+  "stock": 19,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931133c"
+  },
+  "name": "Collagen Boost Serum #99",
+  "description": "Boosts collagen production to improve skin elasticity.",
+  "price": 18.23,
+  "stock": 38,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": {
+    "$oid": "683432b5329b002b8931133d"
+  },
+  "name": "SPF 50 Sunscreen Lotion #100",
+  "description": "Protects skin from harmful UV rays without clogging pores.",
+  "price": 45.69,
+  "stock": 30,
+  "category": "Skincare",
+  "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335"
+},
+{
+  "_id": "2910f9ad03b842f29cd563f3",
+  "name": "Jo Malone Wood Sage",
+  "description": "A luxurious and captivating scent for special occasions.",
+  "price": 102.08,
+  "stock": 52,
+  "category": "female",
+  "image": "https://bluemercury.com/cdn/shop/files/enhanced_images-p690251033713-3_b68134d8-a7ce-4fb6-b038-ed90503f8f33.jpg?v=1746828875&width=1500"
+},
+{
+  "_id": "32f201c014d442e3b75b92cc",
+  "name": "Givenchy Gentleman",
+  "description": "Elegance captured in a bottle with deep floral tones.",
+  "price": 139.82,
+  "stock": 30,
+  "category": "male",
+  "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR8Iaj6LDxAlq0_kQBvJfpjBqClCmxInE3wLw&s"
+},
+{
+  "_id": "dc68d041813447f190e3de92",
+  "name": "Paco Rabanne 1 Million",
+  "description": "Elegance captured in a bottle with deep floral tones.",
+  "price": 167.47,
+  "stock": 96,
+  "category": "female",
+  "image": "https://i.ebayimg.com/images/g/0ycAAOSwUMNmi8-h/s-l400.jpg"
+},
+{
+  "_id": "6e5328b253c7452b8ce2a86e",
+  "name": "Gucci Bloom",
+  "description": "Fresh and vibrant with floral and woody notes.",
+  "price": 175.95,
+  "stock": 62,
+  "category": "female",
+  "image": "https://www.fragrancefind.co.za/wp-content/uploads/2019/10/Gucci_Bloom.jpg"
+},
+{
+  "_id": "0ed8bf585de3446bae8a9b3d",
+  "name": "Bvlgari Man in Black",
+  "description": "Sweet and seductive fragrance for evening outings.",
+  "price": 51.05,
+  "stock": 45,
+  "category": "male",
+  "image": "https://media2.bulgari.com/image/upload/f_auto,q_auto/v1709196085/grid/bulgari-man/man-in-black-parfum_y6gprn.jpg"
+},
+{
+  "_id": "0bfc95a6de614681bb1e53f1",
+  "name": "Prada Luna Rossa",
+  "description": "Long-lasting perfume with oriental spice undertones.",
+  "price": 127.25,
+  "stock": 70,
+  "category": "male",
+  "image": "https://www.prada.com/content/dam/pradanux/pradasphere/2023/fragrances/05/update_luna_rossa_ocean/mosaic/Card_1_DT.jpg"
+},
+{
+  "_id": "fa42f2e4ec2d449f8a2a81da",
+  "name": "Chanel No. 5",
+  "description": "A classic blend of amber, leather, and pepper.",
+  "price": 37.61,
+  "stock": 97,
+  "category": "unisex",
+  "image": "https://olfactoryambition.com/wp-content/uploads/2024/01/chanel-no-5-65aebbd6a9b38.webp"
+},
+{
+  "_id": "1474f846ea364300918922ee",
+  "name": "Tom Ford Black Orchid",
+  "description": "Sensual, intense fragrance with hints of vanilla and musk.",
+  "price": 68.44,
+  "stock": 71,
+  "category": "female",
+  "image": "https://www.bluesalon.com/cdn/shop/files/TFD121PER00047_2.jpg?v=1698840104"
+}]

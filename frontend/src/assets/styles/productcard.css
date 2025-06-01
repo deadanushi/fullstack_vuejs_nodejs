@@ -1,0 +1,246 @@
+
+.product-card {
+  animation: fadeInUp 0.6s ease forwards;
+  opacity: 0;
+  transform: translateY(30px);
+}
+
+@keyframes fadeInUp {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.modern-product-card {
+  border-radius: 20px;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  background: white;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+  border: 1px solid rgba(0, 0, 0, 0.05);
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.modern-product-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Product Image Section */
+.product-image-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.product-image {
+  transition: transform 0.4s ease;
+  background: #f8f9fa;
+}
+
+.modern-product-card:hover .product-image {
+  transform: scale(1.05);
+}
+
+/* Product Actions Overlay */
+.product-actions-overlay {
+  position: absolute;
+  top: 12px;
+  right: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.modern-product-card:hover .product-actions-overlay {
+  opacity: 1;
+}
+
+.action-btn {
+  background: rgba(0, 0, 0, 0.7) !important;
+  backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.action-btn:hover {
+  background: rgba(0, 0, 0, 0.9) !important;
+  transform: scale(1.1);
+}
+
+/* Quick Add Overlay */
+.quick-add-overlay {
+  position: absolute;
+  bottom: 12px;
+  left: 50%;
+  transform: translateX(-50%) translateY(100%);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.modern-product-card:hover .quick-add-overlay {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+}
+
+.quick-add-btn {
+  border-radius: 25px;
+  font-weight: 600;
+  text-transform: none;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+/* Product Badges */
+.product-badges {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.product-badge {
+  font-weight: 600;
+  font-size: 0.75rem;
+}
+
+.discount-badge {
+  position: absolute;
+  top: 12px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-weight: 700;
+}
+
+/* Product Info */
+.product-info {
+  padding: 20px;
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.product-category {
+  font-size: 0.8rem;
+  color: #667eea;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.product-title {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #333;
+  line-height: 1.4;
+  margin: 0;
+}
+
+.product-description {
+  font-size: 0.9rem;
+  color: #666;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* Rating Section */
+.product-rating-section {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.rating-text {
+  font-size: 0.8rem;
+  color: #666;
+}
+
+/* Pricing Section */
+.product-pricing {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: auto;
+}
+
+.price-container {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.original-price {
+  font-size: 0.9rem;
+  color: #999;
+  text-decoration: line-through;
+}
+
+.current-price {
+  font-size: 1.3rem;
+  font-weight: 800;
+  color: #667eea;
+}
+
+.stock-chip {
+  font-size: 0.7rem;
+  font-weight: 600;
+}
+
+/* Card Actions */
+.product-card-actions {
+  padding: 16px 20px;
+  border-top: 1px solid rgba(0, 0, 0, 0.05);
+}
+
+.details-btn {
+  border-radius: 12px;
+  text-transform: none;
+  font-weight: 600;
+}
+
+.cart-btn {
+  border-radius: 50%;
+  min-width: 48px;
+  width: 48px;
+  height: 48px;
+  box-shadow: 0 4px 15px rgba(102, 126, 234, 0.3);
+}
+
+.cart-btn:hover {
+  transform: scale(1.1);
+  box-shadow: 0 6px 20px rgba(102, 126, 234, 0.4);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .product-info {
+    padding: 16px;
+  }
+  
+  .product-card-actions {
+    padding: 12px 16px;
+  }
+  
+  .quick-add-overlay {
+    display: none; /* Hide quick add on mobile for better UX */
+  }
+}
+
+/* Disabled state */
+.cart-btn:disabled,
+.quick-add-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.cart-btn:disabled:hover,
+.quick-add-btn:disabled:hover {
+  transform: none;
+  box-shadow: none;
+}

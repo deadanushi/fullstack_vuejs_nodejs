@@ -1,0 +1,22 @@
+[{
+  "_id": {
+    "$oid": "68373cb92e5fddbd1cfe32d0"
+  },
+  "name": "Female",
+  "description": "Female scents",
+  "createdAt": {
+    "$date": "2025-05-28T16:41:29.923Z"
+  },
+  "__v": 0
+},
+{
+  "_id": {
+    "$oid": "68373cc52e5fddbd1cfe32d3"
+  },
+  "name": "Male",
+  "description": "Male scents",
+  "createdAt": {
+    "$date": "2025-05-28T16:41:41.899Z"
+  },
+  "__v": 0
+}]
