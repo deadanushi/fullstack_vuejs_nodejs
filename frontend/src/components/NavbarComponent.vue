@@ -129,6 +129,7 @@ const router = useRouter()
 const guestNavItems = [
   { name: 'Home', route: '/', icon: 'mdi-home-outline' },
   { name: 'Products', route: '/products', icon: 'mdi-package-variant' },
+  { name: 'Skincare', route: '/skincare', icon: 'mdi-flower-tulip-outline' },
   { name: 'Cart', route: '/cart', icon: 'mdi-cart-outline' },
 ]
 
