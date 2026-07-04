@@ -1,10 +1,14 @@
 <template>
   <div class="home-container">
 
-    <!-- ── HERO (unchanged) ── -->
+    <!-- ── HERO ── -->
     <section class="hero-section">
       <div class="hero-content">
         <div class="hero-text">
+          <div class="hero-badge">
+            <v-icon size="16">mdi-leaf</v-icon>
+            Clean, science-backed skincare
+          </div>
           <h1 class="hero-title">
             Your Skin,
             <span class="gradient-text">Elevated</span>
@@ -32,6 +36,22 @@
               Shop All
             </v-btn>
           </div>
+          <div class="hero-stats">
+            <div class="hero-stat">
+              <span class="hero-stat-value">4.9<v-icon size="16">mdi-star</v-icon></span>
+              <span class="hero-stat-label">Rated by customers</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">10k+</span>
+              <span class="hero-stat-label">Happy skin, monthly</span>
+            </div>
+            <div class="hero-stat-divider"></div>
+            <div class="hero-stat">
+              <span class="hero-stat-value">100%</span>
+              <span class="hero-stat-label">Cruelty-free</span>
+            </div>
+          </div>
         </div>
 
         <div class="hero-visual">
@@ -58,19 +78,19 @@
     <section class="value-strip">
       <div class="value-strip-inner">
         <div class="value-item">
-          <v-icon class="value-icon">mdi-truck-fast-outline</v-icon>
+          <span class="value-icon-wrap"><v-icon class="value-icon">mdi-truck-fast-outline</v-icon></span>
           <span class="value-label">Free Shipping</span>
         </div>
         <div class="value-item">
-          <v-icon class="value-icon">mdi-refresh</v-icon>
+          <span class="value-icon-wrap"><v-icon class="value-icon">mdi-refresh</v-icon></span>
           <span class="value-label">Easy Returns</span>
         </div>
         <div class="value-item">
-          <v-icon class="value-icon">mdi-shield-check-outline</v-icon>
+          <span class="value-icon-wrap"><v-icon class="value-icon">mdi-shield-check-outline</v-icon></span>
           <span class="value-label">Secure Payment</span>
         </div>
         <div class="value-item">
-          <v-icon class="value-icon">mdi-headset</v-icon>
+          <span class="value-icon-wrap"><v-icon class="value-icon">mdi-headset</v-icon></span>
           <span class="value-label">24/7 Support</span>
         </div>
       </div>
@@ -137,6 +157,13 @@
                     View Details
                   </v-btn>
                 </div>
+                <button
+                  class="dark-card-quickadd"
+                  @click.stop="quickAddToCart(product)"
+                  aria-label="Add to cart"
+                >
+                  <v-icon size="18">mdi-bag-plus-outline</v-icon>
+                </button>
               </div>
               <div class="dark-card-info">
                 <span class="dark-card-category">{{ formatCategory(product.category) }}</span>
@@ -197,11 +224,13 @@ import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useProductStore } from '../stores/product';
 import { useToastStore } from '../stores/toast';
+import { useCartStore } from '../stores/cart';
 import '@/assets/styles/home.css'
 
 const router = useRouter();
 const productStore = useProductStore();
 const toastStore = useToastStore();
+const cartStore = useCartStore();
 
 const loading = ref(false);
 const featuredProducts = ref([]);
@@ -245,6 +274,14 @@ const formatCategory = (category) => {
   const name = typeof category === 'object' ? category.name : category;
   if (!name) return 'General';
   return name.charAt(0).toUpperCase() + name.slice(1);
+};
+
+const quickAddToCart = (product) => {
+  cartStore.addToCart(product);
+  toastStore.show({
+    message: `${product.name || product.title || 'Product'} added to cart`,
+    color: 'success'
+  });
 };
 
 const goToProduct = (productId) => {

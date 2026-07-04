@@ -96,14 +96,14 @@
 }
 
 .logo-text-primary {
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
 }
 
 .logo-text-secondary {
-  background: linear-gradient(135deg, #93C5FD 0%, #BFDBFE 100%);
+  background: linear-gradient(135deg, #E8C4B8 0%, #F3DCD4 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -212,7 +212,7 @@
   font-weight: 700;
   text-transform: none;
   font-size: 1.1rem;
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%);
   box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
   transition: all 0.3s ease;
 }
@@ -293,14 +293,14 @@
 }
 
 .auth-link {
-  color: #2563EB;
+  color: #C4896B;
   text-decoration: none;
   font-weight: 600;
   transition: color 0.3s ease;
 }
 
 .auth-link:hover {
-  color: #1D4ED8;
+  color: #B8735A;
 }
 
 /* Features */

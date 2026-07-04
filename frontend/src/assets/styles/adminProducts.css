@@ -35,7 +35,7 @@
 }
 
 .title-icon {
-  color: #2563EB;
+  color: #C4896B;
   font-size: 2.2rem;
 }
 
@@ -49,7 +49,7 @@
   border-radius: 16px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%) !important;
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%) !important;
   color: white !important;
   box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
 }
@@ -95,7 +95,7 @@
 }
 
 .stats-icon.primary {
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%);
 }
 
 .stats-icon.success {
@@ -252,7 +252,7 @@
 
 .price-cell {
   font-weight: 700;
-  color: #2563EB;
+  color: #C4896B;
   font-size: 1.1rem;
 }
 
@@ -305,7 +305,7 @@
 }
 
 .dialog-icon {
-  color: #2563EB;
+  color: #C4896B;
   font-size: 1.6rem;
 }
 
@@ -390,7 +390,7 @@
   border-radius: 12px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%) !important;
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%) !important;
   color: white !important;
 }
 

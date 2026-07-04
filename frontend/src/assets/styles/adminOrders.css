@@ -29,7 +29,7 @@
 }
 
 .title-icon {
-  color: #1976d2;
+  color: #B8735A;
 }
 
 .page-subtitle {
@@ -75,9 +75,9 @@
   justify-content: center;
 }
 
-.stats-icon.primary { background-color: #1976d2; }
+.stats-icon.primary { background-color: #B8735A; }
 .stats-icon.success { background-color: #4caf50; }
-.stats-icon.info { background-color: #2196f3; }
+.stats-icon.info { background-color: #C4896B; }
 .stats-icon.warning { background-color: #ff9800; }
 
 .stats-number {
@@ -216,7 +216,7 @@
 }
 
 .order-icon {
-  color: #1976d2;
+  color: #B8735A;
 }
 
 .order-number {
@@ -322,7 +322,7 @@
 .total-amount {
   font-size: 1.25rem;
   font-weight: 700;
-  color: #1976d2;
+  color: #B8735A;
 }
 
 /* Shipping Info */

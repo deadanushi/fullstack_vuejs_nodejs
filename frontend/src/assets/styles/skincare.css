@@ -6,7 +6,7 @@
 :root {
   --sk-cream:   #FEFCFA;
   --sk-warm:    #C4896B;   /* terracotta/rose */
-  --sk-sage:    #7BA39A;
+  --sk-sage:    #8B5E52;
   --sk-dark:    #2D1F1A;
   --sk-muted:   #7A6E6A;
   --sk-border:  rgba(196, 137, 107, 0.18);
@@ -47,7 +47,7 @@
 }
 
 .sk-hero-glow--right {
-  background: radial-gradient(circle, #c8e0db 0%, transparent 70%);
+  background: radial-gradient(circle, #e8c9bc 0%, transparent 70%);
   bottom: -100px;
   right: -140px;
 }
@@ -67,8 +67,8 @@
   letter-spacing: 0.1em;
   text-transform: uppercase;
   color: var(--sk-sage);
-  background: rgba(123, 163, 154, 0.12);
-  border: 1px solid rgba(123, 163, 154, 0.3);
+  background: rgba(139, 94, 82, 0.12);
+  border: 1px solid rgba(139, 94, 82, 0.3);
   padding: 6px 16px;
   border-radius: 100px;
   margin-bottom: 24px;
@@ -293,7 +293,7 @@
 }
 
 .sk-card-badge--sage {
-  background: linear-gradient(135deg, var(--sk-sage), #6A9189);
+  background: linear-gradient(135deg, var(--sk-sage), #6E4038);
   color: white;
 }
 

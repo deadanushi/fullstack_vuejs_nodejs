@@ -1,51 +1,51 @@
-
+/* ── wrapper fills its grid cell ── */
 .product-card {
-  animation: fadeInUp 0.6s ease forwards;
+  height: 100%;
+  animation: fadeInUp 0.5s ease forwards;
   opacity: 0;
-  transform: translateY(30px);
+  transform: translateY(20px);
 }
 
 @keyframes fadeInUp {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
+  to { opacity: 1; transform: translateY(0); }
 }
 
+/* ── card stretches full height, content in column ── */
 .modern-product-card {
+  height: 100%;
   border-radius: 20px;
   overflow: hidden;
-  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
-  cursor: pointer;
   background: white;
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-  border: 1px solid rgba(0, 0, 0, 0.05);
-  height: 100%;
+  box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+  border: 1px solid rgba(196, 137, 107, 0.12);
   display: flex;
   flex-direction: column;
+  cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .modern-product-card:hover {
-  transform: translateY(-8px);
-  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+  transform: translateY(-6px);
+  box-shadow: 0 16px 40px rgba(196, 137, 107, 0.18), 0 4px 12px rgba(0, 0, 0, 0.08);
 }
 
-/* Product Image Section */
+/* ── Image ── */
 .product-image-wrapper {
   position: relative;
   overflow: hidden;
+  flex-shrink: 0;
 }
 
 .product-image {
+  background: #FBF7F5;
   transition: transform 0.4s ease;
-  background: #f8f9fa;
 }
 
 .modern-product-card:hover .product-image {
   transform: scale(1.05);
 }
 
-/* Product Actions Overlay */
+/* Hover action buttons */
 .product-actions-overlay {
   position: absolute;
   top: 12px;
@@ -62,17 +62,17 @@
 }
 
 .action-btn {
-  background: rgba(0, 0, 0, 0.7) !important;
-  backdrop-filter: blur(10px);
-  border: 1px solid rgba(255, 255, 255, 0.2);
+  background: rgba(255, 255, 255, 0.88) !important;
+  backdrop-filter: blur(8px);
+  border: 1px solid rgba(196, 137, 107, 0.2) !important;
 }
 
 .action-btn:hover {
-  background: rgba(0, 0, 0, 0.9) !important;
-  transform: scale(1.1);
+  background: white !important;
+  border-color: #C4896B !important;
 }
 
-/* Quick Add Overlay */
+/* Quick-add overlay */
 .quick-add-overlay {
   position: absolute;
   bottom: 12px;
@@ -94,7 +94,7 @@
   box-shadow: 0 4px 15px rgba(196, 137, 107, 0.3);
 }
 
-/* Product Badges */
+/* Badges */
 .product-badges {
   position: absolute;
   top: 12px;
@@ -104,10 +104,7 @@
   gap: 6px;
 }
 
-.product-badge {
-  font-weight: 600;
-  font-size: 0.75rem;
-}
+.product-badge { font-weight: 600; font-size: 0.75rem; }
 
 .discount-badge {
   position: absolute;
@@ -117,130 +114,127 @@
   font-weight: 700;
 }
 
-/* Product Info */
+/* ── Info — fills remaining card height ── */
 .product-info {
-  padding: 20px;
-  flex-grow: 1;
+  flex: 1;
+  padding: 18px 18px 12px;
   display: flex;
   flex-direction: column;
-  gap: 12px;
+  gap: 6px;
 }
 
 .product-category {
-  font-size: 0.8rem;
-  color: #C4896B;
-  font-weight: 600;
+  font-family: 'Geist', sans-serif;
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
-  letter-spacing: 0.5px;
+  color: #8B5E52;
 }
 
 .product-title {
-  font-size: 1.1rem;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1rem;
   font-weight: 700;
-  color: #333;
-  line-height: 1.4;
+  color: #2D1F1A;
+  line-height: 1.35;
   margin: 0;
 }
 
 .product-description {
-  font-size: 0.9rem;
-  color: #666;
+  font-size: 0.85rem;
+  color: #7A6E6A;
   line-height: 1.5;
   margin: 0;
+  flex: 1;
 }
 
-/* Rating Section */
+/* Rating */
 .product-rating-section {
   display: flex;
   align-items: center;
-  gap: 8px;
+  gap: 6px;
 }
 
 .rating-text {
-  font-size: 0.8rem;
-  color: #666;
+  font-size: 0.78rem;
+  color: #7A6E6A;
 }
 
-/* Pricing Section */
+/* Pricing — pinned to bottom of info area */
 .product-pricing {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-top: auto;
+  padding-top: 10px;
 }
 
 .price-container {
   display: flex;
-  align-items: center;
-  gap: 8px;
+  align-items: baseline;
+  gap: 7px;
 }
 
 .original-price {
-  font-size: 0.9rem;
-  color: #999;
+  font-size: 0.82rem;
+  color: #B0A8A4;
   text-decoration: line-through;
 }
 
 .current-price {
-  font-size: 1.3rem;
+  font-family: 'Hanken Grotesk', sans-serif;
+  font-size: 1.25rem;
   font-weight: 800;
   color: #C4896B;
 }
 
-.stock-chip {
-  font-size: 0.7rem;
-  font-weight: 600;
-}
+.stock-chip { font-size: 0.7rem; font-weight: 600; }
 
-/* Card Actions */
+/* ── Actions row — always at the very bottom ── */
 .product-card-actions {
-  padding: 16px 20px;
-  border-top: 1px solid rgba(0, 0, 0, 0.05);
+  padding: 12px 18px 16px;
+  border-top: 1px solid rgba(196, 137, 107, 0.1);
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex-shrink: 0;
 }
 
 .details-btn {
-  border-radius: 12px;
-  text-transform: none;
-  font-weight: 600;
+  border-radius: 10px !important;
+  text-transform: none !important;
+  font-weight: 600 !important;
+  font-size: 0.85rem !important;
+  flex: 1;
 }
 
 .cart-btn {
-  border-radius: 50%;
-  min-width: 48px;
-  width: 48px;
-  height: 48px;
-  box-shadow: 0 4px 15px rgba(196, 137, 107, 0.3);
+  border-radius: 10px !important;
+  min-width: 44px !important;
+  width: 44px !important;
+  height: 44px !important;
+  flex-shrink: 0;
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%) !important;
+  box-shadow: 0 4px 14px rgba(196, 137, 107, 0.35) !important;
 }
 
 .cart-btn:hover {
-  transform: scale(1.1);
-  box-shadow: 0 6px 20px rgba(196, 137, 107, 0.4);
+  transform: scale(1.08);
+  box-shadow: 0 6px 18px rgba(196, 137, 107, 0.45) !important;
 }
 
-/* Responsive Design */
-@media (max-width: 768px) {
-  .product-info {
-    padding: 16px;
-  }
-  
-  .product-card-actions {
-    padding: 12px 16px;
-  }
-  
-  .quick-add-overlay {
-    display: none; /* Hide quick add on mobile for better UX */
-  }
-}
-
-/* Disabled state */
 .cart-btn:disabled,
 .quick-add-btn:disabled {
-  opacity: 0.5;
+  opacity: 0.45;
   cursor: not-allowed;
+  transform: none !important;
+  box-shadow: none !important;
 }
 
-.cart-btn:disabled:hover,
-.quick-add-btn:disabled:hover {
-  transform: none;
-  box-shadow: none;
+/* ── Responsive ── */
+@media (max-width: 768px) {
+  .product-info { padding: 14px 14px 10px; }
+  .product-card-actions { padding: 10px 14px 14px; }
+  .quick-add-overlay { display: none; }
 }

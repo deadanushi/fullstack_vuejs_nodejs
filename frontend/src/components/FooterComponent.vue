@@ -5,9 +5,10 @@
         <!-- Brand -->
         <div class="footer-brand">
           <div class="footer-logo">
-            <span class="logo-primary">MY</span><span class="logo-secondary">STORE</span>
+            <span class="logo-primary">LU</span><span class="logo-secondary">MÉ</span>
           </div>
-          <p class="footer-tagline">Your one-stop shop for everything you need.</p>
+          <p class="footer-tagline">Science-backed skincare for visibly radiant, healthy skin — every day.</p>
+          <p class="footer-cert">🌿 Vegan &nbsp;·&nbsp; 🐰 Cruelty-Free &nbsp;·&nbsp; ♻️ Sustainable</p>
         </div>
 
         <!-- Links -->
@@ -15,35 +16,36 @@
           <h4 class="footer-heading">Shop</h4>
           <ul class="footer-links">
             <li><router-link to="/products">All Products</router-link></li>
+            <li><router-link to="/products">Moisturizers</router-link></li>
+            <li><router-link to="/products">Serums</router-link></li>
             <li><router-link to="/cart">Cart</router-link></li>
-            <li><router-link to="/checkout">Checkout</router-link></li>
           </ul>
         </div>
 
         <div class="footer-links-group">
           <h4 class="footer-heading">Company</h4>
           <ul class="footer-links">
-            <li><a href="#">About Us</a></li>
-            <li><a href="#">Contact</a></li>
-            <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Terms of Service</a></li>
+            <li><a href="#">Our Story</a></li>
+            <li><a href="#">Ingredients</a></li>
+            <li><a href="#">Sustainability</a></li>
+            <li><a href="#">Press</a></li>
           </ul>
         </div>
 
         <div class="footer-links-group">
           <h4 class="footer-heading">Support</h4>
           <ul class="footer-links">
-            <li><a href="#">FAQ</a></li>
+            <li><a href="#">Skin Quiz</a></li>
             <li><a href="#">Shipping Info</a></li>
             <li><a href="#">Returns</a></li>
-            <li><a href="#">Track Order</a></li>
+            <li><a href="#">Contact Us</a></li>
           </ul>
         </div>
       </div>
     </div>
 
     <div class="footer-bottom">
-      <p class="footer-copy">&copy; {{ year }} MyStore. All rights reserved.</p>
+      <p class="footer-copy">&copy; {{ year }} LUMÉ Skincare. All rights reserved.</p>
       <div class="footer-social">
         <v-btn icon variant="text" size="small" class="social-btn">
           <v-icon size="18">mdi-twitter</v-icon>
@@ -65,12 +67,13 @@ const year = new Date().getFullYear();
 
 <style scoped>
 .site-footer {
-  background: #0F172A;
-  color: #CBD5E1;
+  background: #2D1F1A;
+  color: #D4C4BB;
 }
 
 .footer-main {
   padding: 60px 24px 40px;
+  border-bottom: 1px solid rgba(196, 137, 107, 0.15);
 }
 
 .footer-inner {
@@ -83,37 +86,51 @@ const year = new Date().getFullYear();
 
 /* Brand */
 .footer-logo {
-  font-family: 'Arial Black', Arial, sans-serif;
+  font-family: 'Hanken Grotesk', sans-serif;
   font-weight: 900;
-  font-size: 1.8rem;
+  font-size: 2rem;
   letter-spacing: -0.5px;
-  margin-bottom: 12px;
+  margin-bottom: 14px;
 }
 
 .logo-primary {
-  color: #F1F5F9;
+  background: linear-gradient(135deg, #F5EDE8 0%, #E8D5CC 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .logo-secondary {
-  color: #2563EB;
+  background: linear-gradient(135deg, #C4896B 0%, #E8A882 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .footer-tagline {
-  color: #94A3B8;
+  color: rgba(212, 196, 187, 0.75);
   font-size: 0.9rem;
   line-height: 1.6;
+  margin: 0 0 12px;
+  max-width: 260px;
+}
+
+.footer-cert {
+  color: rgba(212, 196, 187, 0.5);
+  font-size: 0.8rem;
   margin: 0;
-  max-width: 240px;
+  letter-spacing: 0.01em;
 }
 
 /* Links */
 .footer-heading {
-  color: #F1F5F9;
-  font-size: 0.85rem;
+  color: #F5EDE8;
+  font-family: 'Geist', sans-serif;
+  font-size: 0.75rem;
   font-weight: 700;
   text-transform: uppercase;
-  letter-spacing: 1px;
-  margin: 0 0 16px;
+  letter-spacing: 0.1em;
+  margin: 0 0 18px;
 }
 
 .footer-links {
@@ -122,23 +139,22 @@ const year = new Date().getFullYear();
   margin: 0;
   display: flex;
   flex-direction: column;
-  gap: 10px;
+  gap: 11px;
 }
 
 .footer-links a {
-  color: #94A3B8;
+  color: rgba(212, 196, 187, 0.65);
   text-decoration: none;
   font-size: 0.9rem;
   transition: color 0.2s;
 }
 
 .footer-links a:hover {
-  color: #93C5FD;
+  color: #C4896B;
 }
 
 /* Bottom bar */
 .footer-bottom {
-  border-top: 1px solid rgba(255, 255, 255, 0.08);
   padding: 20px 24px;
   max-width: 1200px;
   margin: 0 auto;
@@ -148,40 +164,27 @@ const year = new Date().getFullYear();
 }
 
 .footer-copy {
-  color: #64748B;
-  font-size: 0.85rem;
+  color: rgba(212, 196, 187, 0.4);
+  font-size: 0.82rem;
   margin: 0;
 }
 
 .social-btn {
-  color: #64748B !important;
+  color: rgba(212, 196, 187, 0.45) !important;
   transition: color 0.2s;
 }
 
 .social-btn:hover {
-  color: #93C5FD !important;
+  color: #C4896B !important;
 }
 
 @media (max-width: 960px) {
-  .footer-inner {
-    grid-template-columns: 1fr 1fr;
-    gap: 32px;
-  }
-
-  .footer-brand {
-    grid-column: 1 / -1;
-  }
+  .footer-inner { grid-template-columns: 1fr 1fr; gap: 32px; }
+  .footer-brand { grid-column: 1 / -1; }
 }
 
 @media (max-width: 600px) {
-  .footer-inner {
-    grid-template-columns: 1fr;
-  }
-
-  .footer-bottom {
-    flex-direction: column;
-    gap: 12px;
-    text-align: center;
-  }
+  .footer-inner { grid-template-columns: 1fr; }
+  .footer-bottom { flex-direction: column; gap: 12px; text-align: center; }
 }
 </style>

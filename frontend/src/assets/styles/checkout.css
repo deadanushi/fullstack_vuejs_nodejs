@@ -40,7 +40,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -90,7 +90,7 @@
 
 .progress-step.active .step-circle {
   background: white;
-  color: #2563EB;
+  color: #C4896B;
   border-color: white;
   box-shadow: 0 0 0 4px rgba(255, 255, 255, 0.3);
 }
@@ -149,7 +149,7 @@
   border-radius: 16px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%);
   box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
 }
 
@@ -190,7 +190,7 @@
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%);
   color: white;
   display: flex;
   align-items: center;
@@ -277,7 +277,7 @@
 }
 
 .payment-option.active {
-  border-color: #2563EB;
+  border-color: #C4896B;
   background: rgba(37, 99, 235, 0.05);
 }
 
@@ -402,7 +402,7 @@
 .item-price {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #2563EB;
+  color: #C4896B;
 }
 
 /* Pricing Breakdown */
@@ -457,7 +457,7 @@
 .total-value {
   font-size: 1.4rem;
   font-weight: 800;
-  color: #2563EB;
+  color: #C4896B;
 }
 
 /* Summary Actions */
@@ -474,7 +474,7 @@
   border-radius: 16px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%);
   box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
   transition: all 0.3s ease;
   margin-bottom: 16px;

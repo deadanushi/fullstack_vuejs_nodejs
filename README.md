@@ -17,6 +17,7 @@ A production-ready e-commerce starter with a Vue 3 storefront, Express REST API,
 
 ---
 
+
 ## Tech stack
 
 - **Frontend:** Vue 3, Vuetify 3, Pinia, Vue Router, Axios

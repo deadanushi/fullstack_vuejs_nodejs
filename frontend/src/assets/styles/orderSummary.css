@@ -88,7 +88,7 @@
 .item-price {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #2563EB;
+  color: #C4896B;
 }
 
 /* Pricing Breakdown */
@@ -146,7 +146,7 @@
 .total-value {
   font-size: 1.4rem;
   font-weight: 800;
-  color: #2563EB;
+  color: #C4896B;
 }
 
 /* Summary Actions */
@@ -167,7 +167,7 @@
   font-weight: 700;
   font-size: 1rem;
   text-transform: none;
-  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  background: linear-gradient(135deg, #C4896B 0%, #B8735A 100%);
   color: white;
   box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
   transition: all 0.3s ease;
