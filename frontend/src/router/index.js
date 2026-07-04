@@ -36,13 +36,13 @@ const routes = [
     path: '/cart',
     name: 'Cart',
     component: Cart,
-    meta: { requiresAuth: true, adminForbidden: true }
+    meta: { adminForbidden: true }
   },
   {
     path: '/checkout',
     name: 'Checkout',
     component: Checkout,
-    meta: { requiresAuth: true, adminForbidden: true }
+    meta: { adminForbidden: true }
   },
   {
     path: '/login',
@@ -54,7 +54,6 @@ const routes = [
     path: '/register',
     name: 'Register',
     component: Register,
-    meta: { guestOnly: true }
   },
 
   // Nested Admin Routes
@@ -84,7 +83,8 @@ const routes = [
 
 const router = createRouter({
   history: createWebHistory(),
-  routes
+  routes,
+  scrollBehavior: () => ({ top: 0, behavior: 'smooth' })
 });
 
 router.beforeEach((to, from, next) => {

@@ -15,28 +15,8 @@
     <!-- Main Content -->
     <div class="checkout-content">
       <v-container fluid class="px-6">
-        <!-- Authentication Check -->
-        <div v-if="!isLoggedIn" class="auth-required">
-          <v-card class="auth-card" elevation="0">
-            <div class="auth-content">
-              <v-icon size="80" color="warning">mdi-account-alert</v-icon>
-              <h2 class="auth-title">Authentication Required</h2>
-              <p class="auth-subtitle">Please log in to continue with your checkout</p>
-              <v-btn
-                color="primary"
-                size="large"
-                class="auth-btn"
-                @click="$router.push('/login')"
-              >
-                <v-icon left>mdi-login</v-icon>
-                Log In to Continue
-              </v-btn>
-            </div>
-          </v-card>
-        </div>
-
         <!-- Checkout Form -->
-        <v-row v-else class="checkout-layout">
+        <v-row class="checkout-layout">
           <!-- Left Column - Forms -->
           <v-col cols="12" lg="8" md="7">
             <div class="checkout-forms">
@@ -263,13 +243,6 @@
                     </div>
                   </div>
 
-                  <!-- User Info -->
-                  <v-divider class="my-4"></v-divider>
-                  <div class="user-info">
-                    <h4 class="user-info-title">Account Information</h4>
-                    <p class="user-name">{{ userStore.user?.name || userStore.user?.email || 'User' }}</p>
-                    <p class="user-id">ID: {{ userStore.user?._id }}</p>
-                  </div>
                 </v-card-text>
                 
                 <!-- Place Order Button -->
@@ -315,13 +288,11 @@ import { ref, computed, onMounted } from 'vue';
 import { useRouter } from 'vue-router';
 import { useCartStore } from '../stores/cart';
 import { useOrderStore } from '../stores/order';
-import { useUserStore } from '../stores/user';
 import { useToastStore } from '../stores/toast';
 
 const router = useRouter();
 const cartStore = useCartStore();
 const orderStore = useOrderStore();
-const userStore = useUserStore();
 const toastStore = useToastStore();
 
 // Form refs and validation
@@ -375,12 +346,10 @@ const rules = {
 };
 
 // Computed properties
-const isLoggedIn = ref(false);
 const canPlaceOrder = computed(() => {
-  return shippingValid.value && 
-         paymentMethod.value && 
-         cartStore.items.length > 0 &&
-         isLoggedIn.value;
+  return shippingValid.value &&
+         paymentMethod.value &&
+         cartStore.items.length > 0;
 });
 
 // Methods
@@ -403,14 +372,8 @@ const validateShippingDetails = () => {
 };
 
 onMounted(() => {
-  // Check authentication
-  userStore.checkAuth();
-  isLoggedIn.value = userStore.isLoggedIn;
-  
-  // Load cart items
   cartStore.loadCart();
-  
-  // Check if cart is empty
+
   if (cartStore.items.length === 0) {
     toastStore.show({
       message: 'Your cart is empty. Add some items before checkout.',
@@ -418,25 +381,10 @@ onMounted(() => {
     });
     router.push('/products');
   }
-
-  // Pre-fill shipping details if available
-  if (userStore.user) {
-    shippingDetails.value.fullName = userStore.user.name || userStore.user.fullName || '';
-  }
 });
 
 const placeOrder = async () => {
   try {
-    // Check authentication first
-    if (!isLoggedIn.value) {
-      toastStore.show({
-        message: 'Please log in to place an order',
-        color: 'error'
-      });
-      router.push('/login');
-      return;
-    }
-
     // Validate form
     const isValid = await validateForm();
     if (!isValid || !validateShippingDetails()) {
@@ -489,13 +437,6 @@ const placeOrder = async () => {
       return;
     }
 
-    console.log('Placing order with:', {
-      shippingDetails: shippingDetails.value,
-      paymentMethod: paymentMethod.value,
-      cartItems: cartStore.items,
-      user: userStore.user,
-    });
-
     // Place the order
     const result = await orderStore.createOrder(shippingDetails.value, paymentMethod.value);
 
@@ -532,7 +473,7 @@ const placeOrder = async () => {
 
 /* Hero Section */
 .checkout-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
   padding: 60px 20px;
   text-align: center;
   color: white;
@@ -566,7 +507,7 @@ const placeOrder = async () => {
 }
 
 .gradient-text {
-  background: linear-gradient(45deg, #ffd89b 0%, #19547b 100%);
+  background: linear-gradient(135deg, #93C5FD 0%, #BFDBFE 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -623,8 +564,8 @@ const placeOrder = async () => {
   border-radius: 16px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
 }
 
 /* Checkout Layout */
@@ -649,7 +590,7 @@ const placeOrder = async () => {
 }
 
 .card-header {
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
   padding: 24px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
@@ -664,7 +605,7 @@ const placeOrder = async () => {
   width: 40px;
   height: 40px;
   border-radius: 50%;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -700,9 +641,9 @@ const placeOrder = async () => {
   align-items: center;
   gap: 16px;
   padding: 16px;
-  background: rgba(102, 126, 234, 0.02);
+  background: rgba(37, 99, 235, 0.02);
   border-radius: 12px;
-  border: 1px solid rgba(102, 126, 234, 0.1);
+  border: 1px solid rgba(37, 99, 235, 0.1);
 }
 
 .item-details {
@@ -718,7 +659,7 @@ const placeOrder = async () => {
 
 .item-price {
   font-size: 0.9rem;
-  color: #667eea;
+  color: #2563EB;
   margin: 0 0 4px;
   font-weight: 500;
 }
@@ -732,7 +673,7 @@ const placeOrder = async () => {
 .item-total {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #667eea;
+  color: #2563EB;
 }
 
 .empty-cart-alert {
@@ -740,7 +681,7 @@ const placeOrder = async () => {
 }
 
 .order-total {
-  background: rgba(102, 126, 234, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   padding: 16px;
   border-radius: 12px;
 }
@@ -760,7 +701,7 @@ const placeOrder = async () => {
 .total-value {
   font-size: 1.3rem;
   font-weight: 800;
-  color: #667eea;
+  color: #2563EB;
 }
 
 /* Form Styling */
@@ -788,7 +729,7 @@ const placeOrder = async () => {
 }
 
 .modern-input :deep(.v-field--focused) {
-  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.2);
 }
 
 /* Payment Methods */
@@ -810,13 +751,13 @@ const placeOrder = async () => {
 }
 
 .payment-option:hover {
-  border-color: rgba(102, 126, 234, 0.3);
-  background: rgba(102, 126, 234, 0.02);
+  border-color: rgba(37, 99, 235, 0.3);
+  background: rgba(37, 99, 235, 0.02);
 }
 
 .payment-option.active {
-  border-color: #667eea;
-  background: rgba(102, 126, 234, 0.05);
+  border-color: #2563EB;
+  background: rgba(37, 99, 235, 0.05);
 }
 
 .payment-info {
@@ -901,7 +842,7 @@ const placeOrder = async () => {
 }
 
 .total-section {
-  background: rgba(102, 126, 234, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   padding: 16px;
   border-radius: 12px;
 }
@@ -919,7 +860,7 @@ const placeOrder = async () => {
 
 .user-name {
   font-weight: 600;
-  color: #667eea;
+  color: #2563EB;
   margin: 0 0 4px;
 }
 
@@ -939,14 +880,14 @@ const placeOrder = async () => {
   border-radius: 16px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
   margin-bottom: 16px;
 }
 
 .place-order-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.4);
 }
 
 .place-order-btn:disabled {
@@ -963,7 +904,7 @@ const placeOrder = async () => {
   display: flex;
   justify-content: space-around;
   padding: 12px;
-  background: rgba(102, 126, 234, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   border-radius: 12px;
 }
 

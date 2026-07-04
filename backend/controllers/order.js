@@ -101,7 +101,7 @@ exports.createOrder = async (req, res, next) => {
     }
 
     const order = await Order.create({
-      user: req.user.id,
+      user: req.user?.id || null,
       items: products.map(item => ({
         productId: item.productId,
         name: item.name,
@@ -178,7 +178,7 @@ exports.cancelOrder = async (req, res, next) => {
       });
     }
 
-    if (!['Pending', 'Processing'].includes(order.status)) {
+    if (!['pending', 'processing'].includes(order.status)) {
       return res.status(400).json({
         success: false,
         message: `Order cannot be cancelled in ${order.status} status`
@@ -193,7 +193,7 @@ exports.cancelOrder = async (req, res, next) => {
       }
     }
 
-    order.status = 'Cancelled';
+    order.status = 'cancelled';
     await order.save();
 
     res.status(200).json({

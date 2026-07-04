@@ -1,7 +1,6 @@
 import { defineStore } from "pinia"
 import api from "../api/api"
 import { useCartStore } from "../stores/cart"
-import { useUserStore } from "../stores/user"
 
 export const useOrderStore = defineStore("order", {
   state: () => ({
@@ -20,23 +19,12 @@ export const useOrderStore = defineStore("order", {
   actions: {
     async createOrder(shippingDetails, paymentMethod) {
       const cartStore = useCartStore()
-      const userStore = useUserStore()
 
       if (cartStore.items.length === 0) {
         return { success: false, message: "Cart is empty" }
       }
 
       try {
-        if (!userStore.isLoggedIn) {
-          return { success: false, message: "User not authenticated" }
-        }
-
-        const userId = userStore.user?._id || userStore.user?.id
-
-        if (!userId) {
-          return { success: false, message: "User ID not found" }
-        }
-
         const orderData = {
           products: cartStore.items.map((item) => ({
             productId: item._id || item.id,

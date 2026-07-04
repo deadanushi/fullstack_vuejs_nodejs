@@ -1,22 +1,26 @@
-[{
-  "_id": {
-    "$oid": "68373cb92e5fddbd1cfe32d0"
+[
+  {
+    "_id": { "$oid": "000000000000000000000001" },
+    "name": "Electronics",
+    "description": "Consumer electronics, gadgets, and accessories",
+    "createdAt": { "$date": "2024-01-01T00:00:00.000Z" }
   },
-  "name": "Female",
-  "description": "Female scents",
-  "createdAt": {
-    "$date": "2025-05-28T16:41:29.923Z"
+  {
+    "_id": { "$oid": "000000000000000000000002" },
+    "name": "Clothing",
+    "description": "Apparel, footwear, and fashion accessories",
+    "createdAt": { "$date": "2024-01-01T00:00:00.000Z" }
   },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "68373cc52e5fddbd1cfe32d3"
+  {
+    "_id": { "$oid": "000000000000000000000003" },
+    "name": "Home & Garden",
+    "description": "Home decor, furniture, and outdoor products",
+    "createdAt": { "$date": "2024-01-01T00:00:00.000Z" }
   },
-  "name": "Male",
-  "description": "Male scents",
-  "createdAt": {
-    "$date": "2025-05-28T16:41:41.899Z"
-  },
-  "__v": 0
-}]
+  {
+    "_id": { "$oid": "000000000000000000000004" },
+    "name": "Books",
+    "description": "Books, magazines, and educational materials",
+    "createdAt": { "$date": "2024-01-01T00:00:00.000Z" }
+  }
+]

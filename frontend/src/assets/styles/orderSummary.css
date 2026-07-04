@@ -88,7 +88,7 @@
 .item-price {
   font-size: 0.9rem;
   font-weight: 600;
-  color: #667eea;
+  color: #2563EB;
 }
 
 /* Pricing Breakdown */
@@ -146,7 +146,7 @@
 .total-value {
   font-size: 1.4rem;
   font-weight: 800;
-  color: #667eea;
+  color: #2563EB;
 }
 
 /* Summary Actions */
@@ -167,9 +167,9 @@
   font-weight: 700;
   font-size: 1rem;
   text-transform: none;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
   color: white;
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
   transition: all 0.3s ease;
   margin-bottom: 16px;
   cursor: pointer;
@@ -177,7 +177,7 @@
 
 .place-order-btn:hover:not(:disabled) {
   transform: translateY(-2px);
-  box-shadow: 0 12px 30px rgba(102, 126, 234, 0.4);
+  box-shadow: 0 12px 30px rgba(37, 99, 235, 0.4);
 }
 
 .place-order-btn:disabled {
@@ -196,7 +196,7 @@
   display: flex;
   justify-content: space-between;
   padding: 16px;
-  background: rgba(102, 126, 234, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   border-radius: 12px;
 }
 

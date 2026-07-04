@@ -14,8 +14,8 @@
         <v-col cols="12" sm="10" md="8" lg="6" xl="4">
           <div class="auth-logo">
             <div class="logo-container">
-              <span class="logo-text-primary">BEAU</span>
-              <span class="logo-text-secondary">TIFY</span>
+              <span class="logo-text-primary">MY</span>
+              <span class="logo-text-secondary">STORE</span>
             </div>
             <p class="logo-subtitle">Welcome back to your account</p>
           </div>

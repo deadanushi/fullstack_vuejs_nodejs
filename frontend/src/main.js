@@ -27,13 +27,13 @@ const vuetify = createVuetify({
     themes: {
       light: {
         colors: {
-          primary: '#1867C0',
-          secondary: '#5CBBF6',
-          accent: '#005CAF',
-          error: '#FF5252',
-          info: '#2196F3',
-          success: '#4CAF50',
-          warning: '#FFC107',
+          primary: '#2563EB',
+          secondary: '#93C5FD',
+          accent: '#1D4ED8',
+          error: '#EF4444',
+          info: '#38BDF8',
+          success: '#22C55E',
+          warning: '#F59E0B',
         },
       },
     },
@@ -47,9 +47,8 @@ app.use(pinia);
 app.use(router);
 app.use(vuetify);
 
-// Initialize authentication state
+// Validate token with server before mounting so route guards have correct state.
 const userStore = useUserStore();
-
-app.mount('#app');
-
-userStore.checkAuth();
+userStore.checkAuth().then(() => {
+  app.mount('#app');
+});

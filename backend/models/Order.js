@@ -4,7 +4,8 @@ const OrderSchema = new mongoose.Schema({
   user: {
     type: mongoose.Schema.Types.ObjectId,
     ref: 'User',
-    required: true
+    required: false,
+    default: null
   },
   items: [{
     productId: {
@@ -66,6 +67,6 @@ const OrderSchema = new mongoose.Schema({
   timestamps: true 
 });
 
-OrderSchema.index({ user: 1, createdAt: -1 });
+OrderSchema.index({ user: 1, createdAt: -1 }, { sparse: true });
 
 module.exports = mongoose.model('Order', OrderSchema);

@@ -17,7 +17,7 @@ exports.getProducts = async (req, res, next) => {
     
     queryStr = queryStr.replace(/\b(gt|gte|lt|lte|in)\b/g, match => `$${match}`);
     
-    query = Product.find(JSON.parse(queryStr));
+    query = Product.find(JSON.parse(queryStr)).populate('category', 'name');
     
     if (req.query.select) {
       const fields = req.query.select.split(',').join(' ');
@@ -73,7 +73,7 @@ exports.getProducts = async (req, res, next) => {
 // @access  Public
 exports.getProduct = async (req, res, next) => {
   try {
-    const product = await Product.findById(req.params.id);
+    const product = await Product.findById(req.params.id).populate('category', 'name');
     
     if (!product) {
       return res.status(404).json({
@@ -140,7 +140,7 @@ exports.updateProduct = async (req, res, next) => {
 // @access  Private/Admin
 exports.deleteProduct = async (req, res, next) => {
   try {
-    const product = await Product.findById(req.params.id);
+    const product = await Product.findById(req.params.id).populate('category', 'name');
     
     if (!product) {
       return res.status(404).json({

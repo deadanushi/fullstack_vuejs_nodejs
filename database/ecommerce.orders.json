@@ -1,192 +1,96 @@
-[{
-  "_id": {
-    "$oid": "6836ff70ce6e4585e32322e8"
-  },
-  "user": {
-    "$oid": "6836090a61d3d20672813b81"
-  },
-  "items": [
-    {
-      "productId": {
-        "$oid": "68343249329b002b89311281"
+[
+  {
+    "_id": { "$oid": "000000000000000000000031" },
+    "user": { "$oid": "000000000000000000000012" },
+    "items": [
+      {
+        "productId": { "$oid": "000000000000000000000021" },
+        "name": "Wireless Headphones",
+        "price": 79.99,
+        "quantity": 1,
+        "image": "https://picsum.photos/seed/prod1/400/400",
+        "_id": { "$oid": "000000000000000000000041" }
       },
-      "name": "Firming Eye Serum",
-      "price": 27.88,
-      "quantity": 2,
-      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
-      "_id": {
-        "$oid": "6836ff70ce6e4585e32322e9"
+      {
+        "productId": { "$oid": "000000000000000000000022" },
+        "name": "Bluetooth Speaker",
+        "price": 49.99,
+        "quantity": 2,
+        "image": "https://picsum.photos/seed/prod2/400/400",
+        "_id": { "$oid": "000000000000000000000042" }
       }
+    ],
+    "shippingAddress": {
+      "fullName": "Jane Smith",
+      "address": "123 Main Street",
+      "city": "New York",
+      "zipCode": "10001",
+      "phone": "555-0100"
     },
-    {
-      "productId": {
-        "$oid": "68343249329b002b89311275"
+    "paymentMethod": "creditCard",
+    "totalAmount": 179.97,
+    "status": "delivered",
+    "createdAt": { "$date": "2024-02-01T10:00:00.000Z" },
+    "updatedAt": { "$date": "2024-02-05T14:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "000000000000000000000032" },
+    "user": { "$oid": "000000000000000000000013" },
+    "items": [
+      {
+        "productId": { "$oid": "000000000000000000000024" },
+        "name": "Classic Crew-Neck T-Shirt",
+        "price": 24.99,
+        "quantity": 3,
+        "image": "https://picsum.photos/seed/prod4/400/400",
+        "_id": { "$oid": "000000000000000000000043" }
       },
-      "name": "Hydrating Face Cream",
-      "price": 52.53,
-      "quantity": 3,
-      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
-      "_id": {
-        "$oid": "6836ff70ce6e4585e32322ea"
+      {
+        "productId": { "$oid": "000000000000000000000025" },
+        "name": "Slim-Fit Chino Pants",
+        "price": 54.99,
+        "quantity": 1,
+        "image": "https://picsum.photos/seed/prod5/400/400",
+        "_id": { "$oid": "000000000000000000000044" }
       }
-    }
-  ],
-  "shippingAddress": {
-    "fullName": "deada nushi",
-    "address": "Tirana",
-    "city": "Tirana",
-    "zipCode": "1001",
-    "phone": "0684242727"
-  },
-  "paymentMethod": "cashOnDelivery",
-  "totalAmount": 213.35,
-  "status": "delivered",
-  "createdAt": {
-    "$date": "2025-05-28T12:20:00.420Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-28T16:41:51.272Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "68373c142e5fddbd1cfe3298"
-  },
-  "user": {
-    "$oid": "6836090a61d3d20672813b81"
-  },
-  "items": [
-    {
-      "productId": {
-        "$oid": "68343249329b002b89311281"
-      },
-      "name": "Firming Eye Serum",
-      "price": 27.88,
-      "quantity": 2,
-      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
-      "_id": {
-        "$oid": "68373c142e5fddbd1cfe3299"
-      }
+    ],
+    "shippingAddress": {
+      "fullName": "John Doe",
+      "address": "456 Oak Avenue",
+      "city": "Los Angeles",
+      "zipCode": "90001",
+      "phone": "555-0200"
     },
-    {
-      "productId": {
-        "$oid": "68343249329b002b89311275"
-      },
-      "name": "Hydrating Face Cream",
-      "price": 52.53,
-      "quantity": 1,
-      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
-      "_id": {
-        "$oid": "68373c142e5fddbd1cfe329a"
+    "paymentMethod": "paypal",
+    "totalAmount": 129.96,
+    "status": "shipped",
+    "createdAt": { "$date": "2024-02-10T09:00:00.000Z" },
+    "updatedAt": { "$date": "2024-02-12T11:00:00.000Z" }
+  },
+  {
+    "_id": { "$oid": "000000000000000000000033" },
+    "user": { "$oid": "000000000000000000000012" },
+    "items": [
+      {
+        "productId": { "$oid": "000000000000000000000027" },
+        "name": "Ceramic Plant Pot Set",
+        "price": 32.00,
+        "quantity": 1,
+        "image": "https://picsum.photos/seed/prod7/400/400",
+        "_id": { "$oid": "000000000000000000000045" }
       }
+    ],
+    "shippingAddress": {
+      "fullName": "Jane Smith",
+      "address": "123 Main Street",
+      "city": "New York",
+      "zipCode": "10001",
+      "phone": "555-0100"
     },
-    {
-      "productId": {
-        "$oid": "68343249329b002b89311280"
-      },
-      "name": "Detoxifying Charcoal Cleanser",
-      "price": 17.66,
-      "quantity": 1,
-      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
-      "_id": {
-        "$oid": "68373c142e5fddbd1cfe329b"
-      }
-    }
-  ],
-  "shippingAddress": {
-    "fullName": "deada ijlnm",
-    "address": "hbjn,gvh",
-    "city": "hjjn",
-    "zipCode": "55555",
-    "phone": "98562497"
-  },
-  "paymentMethod": "cashOnDelivery",
-  "totalAmount": 125.94999999999999,
-  "status": "shipped",
-  "createdAt": {
-    "$date": "2025-05-28T16:38:44.523Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-29T14:56:41.823Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "68373c442e5fddbd1cfe32a9"
-  },
-  "user": {
-    "$oid": "6836090a61d3d20672813b81"
-  },
-  "items": [
-    {
-      "productId": {
-        "$oid": "68343249329b002b89311280"
-      },
-      "name": "Detoxifying Charcoal Cleanser",
-      "price": 17.66,
-      "quantity": 2,
-      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
-      "_id": {
-        "$oid": "68373c442e5fddbd1cfe32aa"
-      }
-    }
-  ],
-  "shippingAddress": {
-    "fullName": "deada ijl",
-    "address": "hbjn,gvh",
-    "city": "hjjn",
-    "zipCode": "55555",
-    "phone": "98562497"
-  },
-  "paymentMethod": "creditCard",
-  "totalAmount": 35.32,
-  "status": "pending",
-  "createdAt": {
-    "$date": "2025-05-28T16:39:32.881Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-28T16:39:32.881Z"
-  },
-  "__v": 0
-},
-{
-  "_id": {
-    "$oid": "683874992359953164a463d4"
-  },
-  "user": {
-    "$oid": "6836090a61d3d20672813b81"
-  },
-  "items": [
-    {
-      "productId": {
-        "$oid": "68343249329b002b89311280"
-      },
-      "name": "Detoxifying Charcoal Cleanser",
-      "price": 17.66,
-      "quantity": 1,
-      "image": "https://glowyskinshop.com/cdn/shop/products/SKIN1004_Madagascar_Centella_Ampoule_100ml_T.jpg?v=1636818335",
-      "_id": {
-        "$oid": "683874992359953164a463d5"
-      }
-    }
-  ],
-  "shippingAddress": {
-    "fullName": "deada n",
-    "address": "hbjn,gvh",
-    "city": "hjjn",
-    "zipCode": "55555",
-    "phone": "98562497"
-  },
-  "paymentMethod": "paypal",
-  "totalAmount": 17.66,
-  "status": "pending",
-  "createdAt": {
-    "$date": "2025-05-29T14:52:09.384Z"
-  },
-  "updatedAt": {
-    "$date": "2025-05-29T14:52:09.384Z"
-  },
-  "__v": 0
-}]
+    "paymentMethod": "cashOnDelivery",
+    "totalAmount": 32.00,
+    "status": "pending",
+    "createdAt": { "$date": "2024-02-15T08:00:00.000Z" },
+    "updatedAt": { "$date": "2024-02-15T08:00:00.000Z" }
+  }
+]

@@ -16,8 +16,9 @@ export const useProductStore = defineStore('product', {
   getters: {
     filteredProducts: (state) => {
       return state.products.filter(product => {
-        if (state.filters.category && product.category !== state.filters.category) {
-          return false;
+        if (state.filters.category) {
+          const catId = product.category?._id?.toString() || product.category?.toString();
+          if (catId !== state.filters.category) return false;
         }
         
         if (state.filters.search && !product.name.toLowerCase().includes(state.filters.search.toLowerCase())) {
@@ -39,8 +40,6 @@ export const useProductStore = defineStore('product', {
   try {
     const response = await api.get('/products');
     this.products = response.data.data || response.data;
-    console.log('✅ Products loaded:', this.products);
-    console.log('First product:', this.products[0]);  
     return { success: true, products: this.products };
   } catch (error) {
     console.error('Error fetching products:', error);

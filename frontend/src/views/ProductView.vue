@@ -39,10 +39,13 @@
                     <h4 class="filter-label">Category</h4>
                     <v-select
                       v-model="selectedCategory"
-                      :items="['All', ...categories]"
+                      :items="categoryItems"
+                      item-title="name"
+                      item-value="_id"
                       variant="outlined"
                       density="comfortable"
                       class="category-select"
+                      :menu-props="{ zIndex: 9999 }"
                       @update:model-value="applyFilters"
                     ></v-select>
                   </div>
@@ -94,17 +97,22 @@
             </div>
 
             <div v-else-if="filteredProducts.length === 0" class="empty-state">
-              <v-icon size="80" color="grey-lighten-2">mdi-package-variant-closed</v-icon>
-              <h3 class="empty-title">No products found</h3>
-              <p class="empty-subtitle">Try adjusting your filters or search terms</p>
-              <v-btn 
-                color="primary" 
-                variant="outlined"
-                @click="clearFilters"
-                class="retry-btn"
-              >
-                Clear Filters
-              </v-btn>
+              <div class="empty-state-inner">
+                <div class="empty-icon-wrap">
+                  <v-icon size="48" color="grey-lighten-1">mdi-magnify-close</v-icon>
+                </div>
+                <h3 class="empty-title">No products found</h3>
+                <p class="empty-subtitle">Try a different search term or clear the filters.</p>
+                <v-btn
+                  color="primary"
+                  variant="flat"
+                  rounded="lg"
+                  @click="clearFilters"
+                >
+                  <v-icon start>mdi-filter-off</v-icon>
+                  Clear Filters
+                </v-btn>
+              </div>
             </div>
 
             <div v-else class="products-grid">
@@ -124,7 +132,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted, watch, computed } from 'vue';
+import { ref, onMounted, computed } from 'vue';
 import { useProductStore } from '../stores/product';
 import { useUserStore } from '../stores/user';
 import { useCartStore } from '../stores/cart';
@@ -144,19 +152,19 @@ const priceRange = ref([0, 1000]);
 
 const categories = computed(() => productStore.categories || []);
 const filteredProducts = computed(() => productStore.filteredProducts || []);
-
+const categoryItems = computed(() => [
+  { _id: null, name: 'All Categories' },
+  ...categories.value
+]);
 
 onMounted(async () => {
   loading.value = true;
   try {
     await productStore.fetchCategories();
     await productStore.fetchProducts();
-
-    if (productStore.filters) {
-      selectedCategory.value = productStore.filters.category.name || 'All';
-      searchTerm.value = productStore.filters.search || '';
-      priceRange.value = [...(productStore.filters.priceRange || [0, 1000])];
-    }
+    selectedCategory.value = null;
+    searchTerm.value = productStore.filters.search || '';
+    priceRange.value = [...(productStore.filters.priceRange || [0, 1000])];
   } catch (error) {
     console.error('Error loading products:', error);
     toastStore.show({
@@ -168,37 +176,23 @@ onMounted(async () => {
   }
 });
 
-watch([selectedCategory, searchTerm, priceRange], () => {
-  applyFilters();
-}, { immediate: true });
-
 function applyFilters() {
-  if (productStore.setFilters) {
-    productStore.setFilters({
-      category: selectedCategory.value === 'All' ? null : selectedCategory.value,
-      search: searchTerm.value,
-      priceRange: priceRange.value,
-    });
-  }
+  productStore.setFilters({
+    category: selectedCategory.value,
+    search: searchTerm.value,
+    priceRange: priceRange.value,
+  });
 }
 
 
 function clearFilters() {
-  selectedCategory.value = 'All';
+  selectedCategory.value = null;
   searchTerm.value = '';
   priceRange.value = [0, 1000];
   applyFilters();
 }
 
 function addToCart(product) {
-  if (!userStore.isLoggedIn) {
-    toastStore.show({
-      message: 'Please log in to add items to cart',
-      color: 'warning'
-    });
-    return;
-  }
-  
   if (userStore.isAdmin) {
     toastStore.show({
       message: 'Admin accounts cannot add items to cart',

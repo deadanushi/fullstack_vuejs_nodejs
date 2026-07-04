@@ -158,7 +158,7 @@
               size="small"
             >
               <v-icon start size="14">mdi-folder</v-icon>
-              {{ item.category || 'Uncategorized' }}
+              {{ (item.category && item.category.name) ? item.category.name : (item.category || 'Uncategorized') }}
             </v-chip>
           </template>
 
@@ -290,6 +290,8 @@
                   <v-select
                     v-model="editedProduct.category"
                     :items="categoryOptions"
+                    item-title="name"
+                    item-value="_id"
                     placeholder="Select category"
                     variant="outlined"
                     density="comfortable"
@@ -469,12 +471,14 @@
 
 <script setup>
 import { ref, computed, onMounted } from 'vue';
+import { useRouter } from 'vue-router';
 import { useProductStore } from '../../stores/product';
 import { useToastStore } from '../../stores/toast';
 import '@/assets/styles/adminProducts.css'
 
 const productStore = useProductStore();
 const toastStore = useToastStore();
+const router = useRouter();
 
 const form = ref(null);
 const searchQuery = ref('');
@@ -546,9 +550,7 @@ const categoryRules = [
   v => !!v || 'Category is required'
 ];
 
-const categoryOptions = computed(() => {
-  return categories.value.map(cat => cat.name || cat);
-});
+const categoryOptions = computed(() => categories.value);
 
 const categoryFilterOptions = computed(() => {
   const options = ['All Categories'];
@@ -561,15 +563,21 @@ const filteredProducts = computed(() => {
 
   if (searchQuery.value) {
     const query = searchQuery.value.toLowerCase();
-    filtered = filtered.filter(product =>
-      product.name.toLowerCase().includes(query) ||
-      (product.description && product.description.toLowerCase().includes(query)) ||
-      (product.category && product.category.toLowerCase().includes(query))
-    );
+    filtered = filtered.filter(product => {
+      const catName = product.category?.name || product.category || '';
+      return (
+        product.name.toLowerCase().includes(query) ||
+        (product.description && product.description.toLowerCase().includes(query)) ||
+        catName.toLowerCase().includes(query)
+      );
+    });
   }
 
   if (categoryFilter.value && categoryFilter.value !== 'All Categories') {
-    filtered = filtered.filter(product => product.category === categoryFilter.value);
+    filtered = filtered.filter(product => {
+      const catName = product.category?.name || product.category || '';
+      return catName === categoryFilter.value;
+    });
   }
 
   return filtered;
@@ -653,6 +661,7 @@ const getStatusText = (product) => {
 const openProductDialog = (product = null) => {
   if (product) {
     editedProduct.value = { ...product };
+    editedProduct.value.category = product.category?._id || product.category;
   } else {
     editedProduct.value = { ...defaultProduct };
   }
@@ -660,10 +669,7 @@ const openProductDialog = (product = null) => {
 };
 
 const viewProduct = (product) => {
-  toastStore.show({
-    message: `Viewing product: ${product.name}`,
-    color: 'info'
-  });
+  router.push(`/products/${product._id}`);
 };
 
 const saveProduct = async () => {

@@ -151,7 +151,7 @@
           variant="elevated"
           class="cart-btn"
           @click.stop="handleAddToCart"
-          :disabled="!userStore.isLoggedIn || userStore.isAdmin"
+          :disabled="userStore.isAdmin"
         >
           <v-icon size="18">mdi-cart-plus</v-icon>
         </v-btn>
@@ -224,7 +224,9 @@ const truncateDescription = (description) => {
 
 const formatCategory = (category) => {
   if (!category) return '';
-  return category.charAt(0).toUpperCase() + category.slice(1);
+  const name = typeof category === 'object' ? category.name : category;
+  if (!name) return '';
+  return name.charAt(0).toUpperCase() + name.slice(1);
 };
 
 const getProductPrice = () => {

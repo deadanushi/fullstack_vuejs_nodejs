@@ -23,7 +23,7 @@ const ProductSchema = new mongoose.Schema({
     min: [0, 'Stock cannot be negative']
   },
   category: {
-    type: String,
+    type: mongoose.Schema.Types.ObjectId,
     required: [true, 'Please add a category'],
     ref: 'Category'
   },

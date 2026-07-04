@@ -1,11 +1,11 @@
 .cart-container {
   min-height: 100vh;
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: #F8FAFC;
 }
 
 /* Hero Section */
 .cart-hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #0F172A 0%, #1E293B 100%);
   padding: 60px 20px;
   text-align: center;
   color: white;
@@ -39,7 +39,7 @@
 }
 
 .gradient-text {
-  background: linear-gradient(45deg, #ffd89b 0%, #19547b 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -87,8 +87,8 @@
   border-radius: 16px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
 }
 
 /* Cart Layout */
@@ -161,7 +161,7 @@
 .item-price {
   font-size: 1.1rem;
   font-weight: 700;
-  color: #667eea;
+  color: #2563EB;
 }
 
 /* Item Actions */

@@ -1,5 +1,5 @@
 .admin-products {
-  background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+  background: #F8FAFC;
   min-height: 100vh;
   padding: 24px;
 }
@@ -35,7 +35,7 @@
 }
 
 .title-icon {
-  color: #667eea;
+  color: #2563EB;
   font-size: 2.2rem;
 }
 
@@ -49,8 +49,14 @@
   border-radius: 16px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-  box-shadow: 0 8px 25px rgba(102, 126, 234, 0.3);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%) !important;
+  color: white !important;
+  box-shadow: 0 8px 25px rgba(37, 99, 235, 0.3);
+}
+
+.add-product-btn:hover {
+  box-shadow: 0 12px 32px rgba(37, 99, 235, 0.45);
+  transform: translateY(-1px);
 }
 
 /* Stats Section */
@@ -89,7 +95,7 @@
 }
 
 .stats-icon.primary {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%);
 }
 
 .stats-icon.success {
@@ -204,14 +210,14 @@
 }
 
 .modern-table :deep(th) {
-  background: rgba(102, 126, 234, 0.05);
+  background: rgba(37, 99, 235, 0.05);
   color: #333;
   font-weight: 700;
   border: none;
 }
 
 .modern-table :deep(tr:hover) {
-  background: rgba(102, 126, 234, 0.02);
+  background: rgba(37, 99, 235, 0.02);
 }
 
 .product-image {
@@ -246,7 +252,7 @@
 
 .price-cell {
   font-weight: 700;
-  color: #667eea;
+  color: #2563EB;
   font-size: 1.1rem;
 }
 
@@ -284,7 +290,7 @@
   justify-content: space-between;
   align-items: center;
   padding: 32px 32px 24px;
-  background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+  background: linear-gradient(135deg, rgba(37, 99, 235, 0.1) 0%, rgba(29, 78, 216, 0.1) 100%);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -299,7 +305,7 @@
 }
 
 .dialog-icon {
-  color: #667eea;
+  color: #2563EB;
   font-size: 1.6rem;
 }
 
@@ -342,7 +348,7 @@
 }
 
 .modern-input :deep(.v-field--focused) {
-  box-shadow: 0 4px 16px rgba(102, 126, 234, 0.2);
+  box-shadow: 0 4px 16px rgba(37, 99, 235, 0.2);
 }
 
 /* Image Preview */
@@ -384,7 +390,8 @@
   border-radius: 12px;
   font-weight: 700;
   text-transform: none;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #2563EB 0%, #1D4ED8 100%) !important;
+  color: white !important;
 }
 
 .cancel-btn {
