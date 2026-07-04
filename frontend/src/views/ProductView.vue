@@ -3,10 +3,10 @@
     <section class="products-hero">
       <div class="hero-content">
         <h1 class="hero-title">
-          Our <span class="gradient-text">Products</span>
+          Our <span class="gradient-text">Collection</span>
         </h1>
         <p class="hero-subtitle">
-          Discover amazing products tailored just for you
+          Discover your perfect skincare ritual
         </p>
       </div>
     </section>

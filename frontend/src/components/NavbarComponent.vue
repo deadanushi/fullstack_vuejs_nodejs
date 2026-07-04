@@ -11,8 +11,7 @@
       <div class="nav-center">
         <router-link to="/" class="logo-link">
           <div class="logo-container">
-            <span class="logo-text-primary">MY</span>
-            <span class="logo-text-secondary">STORE</span>
+            <span class="logo-text-primary">LU</span><span class="logo-text-secondary">MÉ</span>
           </div>
         </router-link>
 
@@ -48,8 +47,7 @@
       </v-app-bar-nav-icon>
 
       <div class="logo-container mx-3">
-        <span class="logo-text-primary">MY</span>
-        <span class="logo-text-secondary">STORE</span>
+        <span class="logo-text-primary">LU</span><span class="logo-text-secondary">MÉ</span>
         <v-chip size="x-small" color="primary" variant="flat" class="ml-2">Admin</v-chip>
       </div>
 
@@ -77,8 +75,7 @@
     >
       <div class="drawer-header">
         <div class="drawer-logo">
-          <span class="logo-text-primary">MY</span>
-          <span class="logo-text-secondary">STORE</span>
+          <span class="logo-text-primary">LU</span><span class="logo-text-secondary">MÉ</span>
         </div>
         <p class="drawer-subtitle">Admin Panel</p>
       </div>
@@ -128,8 +125,7 @@ const router = useRouter()
 
 const guestNavItems = [
   { name: 'Home', route: '/', icon: 'mdi-home-outline' },
-  { name: 'Products', route: '/products', icon: 'mdi-package-variant' },
-  { name: 'Skincare', route: '/skincare', icon: 'mdi-flower-tulip-outline' },
+  { name: 'Shop', route: '/products', icon: 'mdi-flower-tulip-outline' },
   { name: 'Cart', route: '/cart', icon: 'mdi-cart-outline' },
 ]
 

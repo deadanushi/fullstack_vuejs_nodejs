@@ -8,7 +8,6 @@ import Cart from '../views/CartView.vue';
 import Checkout from '../views/CheckoutView.vue';
 import Login from '../views/LoginView.vue';
 import Register from '../views/RegisterView.vue';
-import Skincare from '../views/SkincarePage.vue';
 
 // Admin views
 import AdminLayout from '../views/admin/AdminLayout.vue'; 
@@ -56,12 +55,6 @@ const routes = [
     name: 'Register',
     component: Register,
   },
-  {
-    path: '/skincare',
-    name: 'Skincare',
-    component: Skincare
-  },
-
   // Nested Admin Routes
   {
     path: '/admin',

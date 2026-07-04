@@ -6,11 +6,12 @@
       <div class="hero-content">
         <div class="hero-text">
           <h1 class="hero-title">
-            Discover Amazing
-            <span class="gradient-text">Products</span>
+            Your Skin,
+            <span class="gradient-text">Elevated</span>
           </h1>
           <p class="hero-subtitle">
-            Explore our curated collection of premium items designed to elevate your lifestyle
+            Science-backed formulas crafted with clinically proven actives
+            for visibly radiant, healthy skin — every day.
           </p>
           <div class="cta-buttons">
             <v-btn
@@ -18,7 +19,7 @@
               class="cta-primary"
               @click="scrollToProducts"
             >
-              <v-icon left>mdi-rocket-launch</v-icon>
+              <v-icon left>mdi-flower-tulip-outline</v-icon>
               Explore Collection
             </v-btn>
             <v-btn
@@ -27,7 +28,7 @@
               class="cta-secondary"
               @click="$router.push('/products')"
             >
-              <v-icon left>mdi-shopping</v-icon>
+              <v-icon left>mdi-shopping-outline</v-icon>
               Shop All
             </v-btn>
           </div>
@@ -84,8 +85,8 @@
     >
       <div class="featured-header">
         <div>
-          <p class="featured-eyebrow">Our Collection</p>
-          <h2 class="featured-title">Featured Products</h2>
+          <p class="featured-eyebrow">Bestsellers</p>
+          <h2 class="featured-title">Our Favourites</h2>
         </div>
         <v-btn
           variant="outlined"
@@ -175,13 +176,14 @@
     <section class="cta-dark-section">
       <div class="cta-dark-inner">
         <h2 class="cta-dark-title">
-          Ready to Upgrade<br>Your Workspace?
+          Start Your<br>Skin Journey
         </h2>
         <p class="cta-dark-sub">
-          Join thousands of customers who trust us for premium products at unbeatable prices.
+          Join thousands who have discovered the difference that science-backed skincare makes.
+          Visible results in as little as 4 weeks — guaranteed.
         </p>
         <v-btn size="x-large" variant="outlined" class="cta-dark-btn" to="/products">
-          Shop All Products
+          Shop The Collection
           <v-icon end>mdi-arrow-right</v-icon>
         </v-btn>
       </div>
